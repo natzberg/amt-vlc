@@ -60,14 +60,14 @@
           var test = [];
           lines = lines.slice(1);
           lines.forEach(function(element) {
-            // console.log(element.split(/[ \t]+/));
-            // test.push(element.split(/[ \t]+/));
+            console.log(element.split(/[ \t]+/));
+            test.push(element.split(/[ \t]+/));
           });
           return test;
         }).then(function(test) {
           test.forEach(function(element) {
             var link = document.createElement('a');
-            link.setAttribute('href', element.toString()+ ".xspf");
+            link.setAttribute('href', element.toString()+ ".vlc");
             link.innerHTML = element.toString();
             var newln = document.createElement('br');
             streams.appendChild(link);
