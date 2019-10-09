@@ -633,7 +633,7 @@ dnl Check for system libs needed
 need_libc=false
 
 dnl Check for usual libc functions
-AC_CHECK_FUNCS([accept4 daemon fcntl flock fstatvfs fork getenv getpwuid_r isatty memalign mkostemp mmap open_memstream newlocale openat pipe2 pread posix_fadvise posix_madvise setlocale stricmp strnicmp strptime uselocale])
+AC_CHECK_FUNCS([accept4 daemon fcntl flock fstatat fstatvfs fork getenv getpwuid_r isatty memalign mkostemp mmap open_memstream newlocale pipe2 pread posix_fadvise posix_madvise setlocale stricmp strnicmp strptime uselocale])
 AC_REPLACE_FUNCS([aligned_alloc atof atoll dirfd fdopendir flockfile fsync getdelim getpid lfind lldiv memrchr nrand48 poll posix_memalign recvmsg rewind sendmsg setenv strcasecmp strcasestr strdup strlcpy strndup strnlen strnstr strsep strtof strtok_r strtoll swab tdestroy tfind timegm timespec_get strverscmp pathconf])
 AC_REPLACE_FUNCS([gettimeofday])
 AC_CHECK_FUNC(fdatasync,,
@@ -2061,6 +2061,19 @@ AS_IF([test "$enable_v4l2" != "no"], [
   ])
 ])
 AM_CONDITIONAL([HAVE_V4L2], [test "${have_v4l2}" != "no"])
+
+dnl
+dnl  NVDEC decoder/encoder
+dnl
+AC_ARG_ENABLE([nvdec], AS_HELP_STRING([--disable-nvdec],
+  [disable NVDEC decoder (default auto)]))
+have_nvdec="no"
+AS_IF([test "$enable_nvdec" != "no"], [
+  AC_CHECK_HEADERS([ffnvcodec/dynlink_loader.h], [
+    have_nvdec="yes"
+  ])
+])
+AM_CONDITIONAL([HAVE_NVDEC], [test "${have_nvdec}" != "no"])
 
 dnl
 dnl special access module for Blackmagic SDI cards

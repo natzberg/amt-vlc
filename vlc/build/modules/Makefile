@@ -353,176 +353,178 @@ am__append_149 = \
     $(NULL)
 
 #am__append_150 = libskins2_plugin.la
-#am__append_151 = libdirect3d9_filters_plugin.la
-#am__append_152 = -ld3d11
-###am__append_153 = libdecdev_vaapi_wl_plugin.la
-###am__append_154 = libdecdev_vaapi_x11_plugin.la
-##am__append_155 = libdecdev_vaapi_drm_plugin.la
-#am__append_156 = libvlc_vdpau.la
-##am__append_157 = libvdpau_display_plugin.la
-##am__append_158 = libvdpau_avcodec_plugin.la
-#am__append_159 = keystore/file_crypt_android.c
-#am__append_160 = keystore/file_crypt_win32.c
-am__append_161 = libkeychain_plugin.la
-am__append_162 = libsyslog_plugin.la
-#am__append_163 = libsd_journal_plugin.la
-#am__append_164 = libandroid_logger_plugin.la
-#am__append_165 = lua/libs/win.c
-#am__append_166 = $(SOCKET_LIBS)
-am__append_167 = -Wl,-framework,Security,-framework,CoreFoundation
-am__append_168 = libsecuretransport_plugin.la
-am__append_169 = libiokit_inhibit_plugin.la
-#am__append_170 = libxdg_screensaver_plugin.la
-#am__append_171 = libdbus_screensaver_plugin.la
-#am__append_172 = libwl_idle_inhibit_plugin.la
-#am__append_173 = $(nodist_libwl_idle_inhibit_plugin_la_SOURCES) \
+#am__append_151 = libnvdec_plugin.la
+##am__append_152 = libglconv_nvdec_plugin.la
+#am__append_153 = libdirect3d9_filters_plugin.la
+#am__append_154 = -ld3d11
+###am__append_155 = libdecdev_vaapi_wl_plugin.la
+###am__append_156 = libdecdev_vaapi_x11_plugin.la
+##am__append_157 = libdecdev_vaapi_drm_plugin.la
+#am__append_158 = libvlc_vdpau.la
+##am__append_159 = libvdpau_display_plugin.la
+##am__append_160 = libvdpau_avcodec_plugin.la
+#am__append_161 = keystore/file_crypt_android.c
+#am__append_162 = keystore/file_crypt_win32.c
+am__append_163 = libkeychain_plugin.la
+am__append_164 = libsyslog_plugin.la
+#am__append_165 = libsd_journal_plugin.la
+#am__append_166 = libandroid_logger_plugin.la
+#am__append_167 = lua/libs/win.c
+#am__append_168 = $(SOCKET_LIBS)
+am__append_169 = -Wl,-framework,Security,-framework,CoreFoundation
+am__append_170 = libsecuretransport_plugin.la
+am__append_171 = libiokit_inhibit_plugin.la
+#am__append_172 = libxdg_screensaver_plugin.la
+#am__append_173 = libdbus_screensaver_plugin.la
+#am__append_174 = libwl_idle_inhibit_plugin.la
+#am__append_175 = $(nodist_libwl_idle_inhibit_plugin_la_SOURCES) \
 #	$(nodist_libwl_shm_plugin_la_SOURCES) \
 #	$(nodist_libxdg_shell_plugin_la_SOURCES)
-am__append_174 = \
+am__append_176 = \
 	libaddonsvorepository_plugin.la \
 	libaddonsfsstorage_plugin.la
 
-am__append_175 = libvod_rtsp_plugin.la
-#am__append_176 = libpacketizer_avparser_plugin.la
-am__append_177 = -Wl,-framework,CoreFoundation,-framework,SystemConfiguration
-#am__append_178 = libpulselist_plugin.la
-#am__append_179 = $(ALSA_CFLAGS) -DHAVE_ALSA
-#am__append_180 = $(ALSA_LIBS)
-#am__append_181 = libxcb_apps_plugin.la
-#am__append_182 = libwindrive_plugin.la
-#am__append_183 = libos2drive_plugin.la
-#am__append_184 = -liphlpapi
-am__append_185 = libbonjour_plugin.la
-am__append_186 = libdynamicoverlay_plugin.la
-am__append_187 = libdecomp_plugin.la
-am__append_188 = libinflate_plugin.la
-am__append_189 = libprefetch_plugin.la
-#am__append_190 = text_renderer/freetype/fonts/dwrite.cpp
-##am__append_191 = text_renderer/freetype/fonts/win32.c
-##am__append_192 = -liconv -lz -lusp10 -lgdi32 -luuid
-#am__append_193 = -ldwrite
-#am__append_194 = text_renderer/freetype/fonts/fontconfig.c
-#am__append_195 = -DHAVE_FONTCONFIG
-#am__append_196 = $(FONTCONFIG_LIBS)
-#am__append_197 = text_renderer/freetype/fonts/android.c
-am__append_198 = text_renderer/freetype/fonts/darwin.c
-am__append_199 = -Wl,-framework,CoreFoundation -Wl,-framework,CoreText
-am__append_200 = $(FRIBIDI_CFLAGS) -DHAVE_FRIBIDI
-am__append_201 = $(FRIBIDI_LIBS)
-am__append_202 = $(HARFBUZZ_CFLAGS) -DHAVE_HARFBUZZ
-am__append_203 = $(HARFBUZZ_LIBS)
-am__append_204 = libfreetype_plugin.la
-am__append_205 = libnsspeechsynthesizer_plugin.la
-#am__append_206 = libsapi_plugin.la
-#am__append_207 = \
+am__append_177 = libvod_rtsp_plugin.la
+#am__append_178 = libpacketizer_avparser_plugin.la
+am__append_179 = -Wl,-framework,CoreFoundation,-framework,SystemConfiguration
+#am__append_180 = libpulselist_plugin.la
+#am__append_181 = $(ALSA_CFLAGS) -DHAVE_ALSA
+#am__append_182 = $(ALSA_LIBS)
+#am__append_183 = libxcb_apps_plugin.la
+#am__append_184 = libwindrive_plugin.la
+#am__append_185 = libos2drive_plugin.la
+#am__append_186 = -liphlpapi
+am__append_187 = libbonjour_plugin.la
+am__append_188 = libdynamicoverlay_plugin.la
+am__append_189 = libdecomp_plugin.la
+am__append_190 = libinflate_plugin.la
+am__append_191 = libprefetch_plugin.la
+#am__append_192 = text_renderer/freetype/fonts/dwrite.cpp
+##am__append_193 = text_renderer/freetype/fonts/win32.c
+##am__append_194 = -liconv -lz -lusp10 -lgdi32 -luuid
+#am__append_195 = -ldwrite
+#am__append_196 = text_renderer/freetype/fonts/fontconfig.c
+#am__append_197 = -DHAVE_FONTCONFIG
+#am__append_198 = $(FONTCONFIG_LIBS)
+#am__append_199 = text_renderer/freetype/fonts/android.c
+am__append_200 = text_renderer/freetype/fonts/darwin.c
+am__append_201 = -Wl,-framework,CoreFoundation -Wl,-framework,CoreText
+am__append_202 = $(FRIBIDI_CFLAGS) -DHAVE_FRIBIDI
+am__append_203 = $(FRIBIDI_LIBS)
+am__append_204 = $(HARFBUZZ_CFLAGS) -DHAVE_HARFBUZZ
+am__append_205 = $(HARFBUZZ_LIBS)
+am__append_206 = libfreetype_plugin.la
+am__append_207 = libnsspeechsynthesizer_plugin.la
+#am__append_208 = libsapi_plugin.la
+#am__append_209 = \
 #	libi420_yuy2_altivec_plugin.la
 
-am__append_208 = \
+am__append_210 = \
 	libi420_rgb_mmx_plugin.la \
 	libi420_yuy2_mmx_plugin.la \
 	libi422_yuy2_mmx_plugin.la
 
-am__append_209 = \
+am__append_211 = \
 	libi420_rgb_sse2_plugin.la \
 	libi420_yuy2_sse2_plugin.la \
 	libi422_yuy2_sse2_plugin.la
 
-am__append_210 = chroma_copy_sse_test
-am__append_211 = chroma_copy_sse_test
-am__append_212 = -Wl,-framework,IOKit,-framework,CoreFoundation
-am__append_213 = libci_filters_plugin.la
-#am__append_214 = libci_filters_plugin.la
-am__append_215 = video_filter/deinterlace/yadif_x86.asm
-#am__append_216 = video_filter/deinterlace/merge_arm.S
-#am__append_217 = -DCAN_COMPILE_ARM
-#am__append_218 = video_filter/deinterlace/merge_arm64.S
-#am__append_219 = -DCAN_COMPILE_ARM64
-#am__append_220 = video_filter/deinterlace/merge_sve.S
-#am__append_221 = -DCAN_COMPILE_SVE
-#am__append_222 = libpanoramix_plugin.la
-#am__append_223 = $(XCB_RANDR_CFLAGS) $(XCB_CFLAGS)
-#am__append_224 = $(XCB_RANDR_LIBS) $(XCB_LIBS)
-#am__append_225 = libpanoramix_plugin.la
-#am__append_226 = video_output/placebo_utils.c video_output/placebo_utils.h
-#am__append_227 = libdecklinkoutput_plugin.la
-am__append_228 = codec/vt_utils.c codec/vt_utils.h
-am__append_229 = -Wl,-framework,IOSurface \
+am__append_212 = chroma_copy_sse_test
+am__append_213 = chroma_copy_sse_test
+am__append_214 = -Wl,-framework,IOKit,-framework,CoreFoundation
+am__append_215 = libci_filters_plugin.la
+#am__append_216 = libci_filters_plugin.la
+am__append_217 = video_filter/deinterlace/yadif_x86.asm
+#am__append_218 = video_filter/deinterlace/merge_arm.S
+#am__append_219 = -DCAN_COMPILE_ARM
+#am__append_220 = video_filter/deinterlace/merge_arm64.S
+#am__append_221 = -DCAN_COMPILE_ARM64
+#am__append_222 = video_filter/deinterlace/merge_sve.S
+#am__append_223 = -DCAN_COMPILE_SVE
+#am__append_224 = libpanoramix_plugin.la
+#am__append_225 = $(XCB_RANDR_CFLAGS) $(XCB_CFLAGS)
+#am__append_226 = $(XCB_RANDR_LIBS) $(XCB_LIBS)
+#am__append_227 = libpanoramix_plugin.la
+#am__append_228 = video_output/placebo_utils.c video_output/placebo_utils.h
+#am__append_229 = libdecklinkoutput_plugin.la
+am__append_230 = codec/vt_utils.c codec/vt_utils.h
+am__append_231 = -Wl,-framework,IOSurface \
 	-Wl,-framework,Foundation,-framework,CoreVideo,-framework,OpenGL
 
-am__append_230 = libvout_macosx_plugin.la libcaopengllayer_plugin.la \
+am__append_232 = libvout_macosx_plugin.la libcaopengllayer_plugin.la \
 	libglconv_cvpx_plugin.la
 
-#am__append_231 = libvout_ios_plugin.la libglconv_cvpx_plugin.la
-#am__append_232 = libvout_ios_plugin.la libglconv_cvpx_plugin.la
-#am__append_233 = -DHAVE_GL_CORE_SYMBOLS
-#am__append_234 = $(GL_LIBS)
-#am__append_235 = libgl_plugin.la
-###am__append_236 = libglconv_vaapi_plugin.la
-##am__append_237 = libglconv_vdpau_plugin.la
-#am__append_238 = libvk_plugin.la
-##am__append_239 = libvk_x11_plugin.la
-##am__append_240 = libvk_win32_plugin.la
-##am__append_241 = libvk_android_plugin.la
-#am__append_242 = libvlc_xcb_events.la
-#am__append_243 = libxcb_x11_plugin.la libxcb_render_plugin.la libxcb_window_plugin.la
-##am__append_244 = \
+#am__append_233 = libvout_ios_plugin.la libglconv_cvpx_plugin.la
+#am__append_234 = libvout_ios_plugin.la libglconv_cvpx_plugin.la
+#am__append_235 = -DHAVE_GL_CORE_SYMBOLS
+#am__append_236 = $(GL_LIBS)
+#am__append_237 = libgl_plugin.la
+###am__append_238 = libglconv_vaapi_plugin.la
+##am__append_239 = libglconv_vdpau_plugin.la
+#am__append_240 = libvk_plugin.la
+##am__append_241 = libvk_x11_plugin.la
+##am__append_242 = libvk_win32_plugin.la
+##am__append_243 = libvk_android_plugin.la
+#am__append_244 = libvlc_xcb_events.la
+#am__append_245 = libxcb_x11_plugin.la libxcb_render_plugin.la libxcb_window_plugin.la
+##am__append_246 = \
 ##	video_output/xcb/keysym.h video_output/xcb/xcb_keysym.h \
 ##	video_output/xcb/vlc_xkb.h video_output/xcb/xkb.c
 
-##am__append_245 = -DHAVE_XKBCOMMON
-##am__append_246 = libegl_x11_plugin.la
-##am__append_247 = libglx_plugin.la
-#am__append_248 = -DHAVE_XKBCOMMON
-#am__append_249 = -DHAVE_XKBCOMMON
-#am__append_250 = libwl_shm_plugin.la \
+##am__append_247 = -DHAVE_XKBCOMMON
+##am__append_248 = libegl_x11_plugin.la
+##am__append_249 = libglx_plugin.la
+#am__append_250 = -DHAVE_XKBCOMMON
+#am__append_251 = -DHAVE_XKBCOMMON
+#am__append_252 = libwl_shm_plugin.la \
 #	libwl_shell_plugin.la \
 #	libxdg_shell_plugin.la
-##am__append_251 = libegl_wl_plugin.la
-#am__append_252 = $(LTLIBdirect3d9)
-#am__append_253 = libdirect3d9_plugin.la
-am__append_254 = video_output/win32/events.c \
+##am__append_253 = libegl_wl_plugin.la
+#am__append_254 = $(LTLIBdirect3d9)
+#am__append_255 = libdirect3d9_plugin.la
+am__append_256 = video_output/win32/events.c \
  video_output/win32/events.h \
  video_output/win32/sensors.cpp \
  video_output/win32/win32touch.c video_output/win32/win32touch.h
 
-am__append_255 = -lgdi32
-#am__append_256 = -ld3d11 -ld3dcompiler_47
-#am__append_257 = $(LTLIBglwin32) $(LTLIBwgl) \
+am__append_257 = -lgdi32
+#am__append_258 = -ld3d11 -ld3dcompiler_47
+#am__append_259 = $(LTLIBglwin32) $(LTLIBwgl) \
 #	libwingdi_plugin.la \
 #	libwinhibit_plugin.la
-#am__append_258 = libglwin32_plugin.la libwgl_plugin.la
-##am__append_259 = libegl_win32_plugin.la
-#am__append_260 = libdrawable_plugin.la
-#am__append_261 = libwin32_window_plugin.la
+#am__append_260 = libglwin32_plugin.la libwgl_plugin.la
+##am__append_261 = libegl_win32_plugin.la
+#am__append_262 = libdrawable_plugin.la
+#am__append_263 = libwin32_window_plugin.la
 
 ### OS/2 ###
-#am__append_262 = libdrawable_plugin.la
-#am__append_263 = libkva_plugin.la
-#am__append_264 = libandroid_window_plugin.la libandroid_display_plugin.la
-##am__append_265 = libegl_android_plugin.la libglconv_android_plugin.la
-#am__append_266 = $(X_LIBS) $(X_PRE_LIBS) -lX11
-#am__append_267 = libglspectrum_plugin.la
-am__append_268 = libaccess_output_livehttp_plugin.la
-am__append_269 = libaccess_output_shout_plugin.la \
+#am__append_264 = libdrawable_plugin.la
+#am__append_265 = libkva_plugin.la
+#am__append_266 = libandroid_window_plugin.la libandroid_display_plugin.la
+##am__append_267 = libegl_android_plugin.la libglconv_android_plugin.la
+#am__append_268 = $(X_LIBS) $(X_PRE_LIBS) -lX11
+#am__append_269 = libglspectrum_plugin.la
+am__append_270 = libaccess_output_livehttp_plugin.la
+am__append_271 = libaccess_output_shout_plugin.la \
 	libaccess_output_srt_plugin.la \
 	libmux_ogg_plugin.la \
 	libstream_out_chromaprint_plugin.la
-#am__append_270 = libaccess_output_rist_plugin.la
-am__append_271 = libmux_ts_plugin.la
-#am__append_272 = libstream_out_sdi_plugin.la
-am__append_273 = -DHAVE_SRTP $(SRTP_CFLAGS) \
+#am__append_272 = libaccess_output_rist_plugin.la
+am__append_273 = libmux_ts_plugin.la
+#am__append_274 = libstream_out_sdi_plugin.la
+am__append_275 = -DHAVE_SRTP $(SRTP_CFLAGS) \
 	$(GCRYPT_CFLAGS)
 
-am__append_274 = $(SRTP_LIBS) $(GCRYPT_LIBS)
+am__append_276 = $(SRTP_LIBS) $(GCRYPT_LIBS)
 
 # Chromecast plugin
-am__append_275 = .proto .pb.cc
-am__append_276 = $(nodist_libstream_out_chromecast_plugin_la_SOURCES)
-am__append_277 = stream_out/chromecast/cast_channel.pb.h
-am__append_278 = libstream_out_chromecast_plugin.la
-am__append_279 = libdemux_chromecast_plugin.la
-#am__append_280 = module.rc.lo
-#am__append_281 = module.rc
+am__append_277 = .proto .pb.cc
+am__append_278 = $(nodist_libstream_out_chromecast_plugin_la_SOURCES)
+am__append_279 = stream_out/chromecast/cast_channel.pb.h
+am__append_280 = libstream_out_chromecast_plugin.la
+am__append_281 = libdemux_chromecast_plugin.la
+#am__append_282 = module.rc.lo
+#am__append_283 = module.rc
 subdir = modules
 ACLOCAL_M4 = $(top_srcdir)/aclocal.m4
 am__aclocal_m4_deps = $(top_srcdir)/m4/ax_append_compile_flags.m4 \
@@ -563,10 +565,10 @@ am__installdirs = "$(DESTDIR)$(pkglibexecdir)" \
 	"$(DESTDIR)$(luadir)" "$(DESTDIR)$(metadir)" \
 	"$(DESTDIR)$(miscdir)" "$(DESTDIR)$(muxdir)" \
 	"$(DESTDIR)$(neondir)" "$(DESTDIR)$(notifydir)" \
-	"$(DESTDIR)$(packetizerdir)" "$(DESTDIR)$(pkglibdir)" \
-	"$(DESTDIR)$(sddir)" "$(DESTDIR)$(soutdir)" \
-	"$(DESTDIR)$(splitterdir)" "$(DESTDIR)$(spudir)" \
-	"$(DESTDIR)$(stream_extractordir)" \
+	"$(DESTDIR)$(nvdecdir)" "$(DESTDIR)$(packetizerdir)" \
+	"$(DESTDIR)$(pkglibdir)" "$(DESTDIR)$(sddir)" \
+	"$(DESTDIR)$(soutdir)" "$(DESTDIR)$(splitterdir)" \
+	"$(DESTDIR)$(spudir)" "$(DESTDIR)$(stream_extractordir)" \
 	"$(DESTDIR)$(stream_filterdir)" "$(DESTDIR)$(textdir)" \
 	"$(DESTDIR)$(vaapidir)" "$(DESTDIR)$(vdpaudir)" \
 	"$(DESTDIR)$(video_filterdir)" "$(DESTDIR)$(visudir)" \
@@ -608,11 +610,11 @@ LTLIBRARIES = $(access_LTLIBRARIES) $(access_out_LTLIBRARIES) \
 	$(logger_LTLIBRARIES) $(lua_LTLIBRARIES) $(meta_LTLIBRARIES) \
 	$(misc_LTLIBRARIES) $(mux_LTLIBRARIES) $(neon_LTLIBRARIES) \
 	$(noinst_LTLIBRARIES) $(notify_LTLIBRARIES) \
-	$(packetizer_LTLIBRARIES) $(pkglib_LTLIBRARIES) \
-	$(sd_LTLIBRARIES) $(sout_LTLIBRARIES) $(splitter_LTLIBRARIES) \
-	$(spu_LTLIBRARIES) $(stream_extractor_LTLIBRARIES) \
-	$(stream_filter_LTLIBRARIES) $(text_LTLIBRARIES) \
-	$(vaapi_LTLIBRARIES) $(vdpau_LTLIBRARIES) \
+	$(nvdec_LTLIBRARIES) $(packetizer_LTLIBRARIES) \
+	$(pkglib_LTLIBRARIES) $(sd_LTLIBRARIES) $(sout_LTLIBRARIES) \
+	$(splitter_LTLIBRARIES) $(spu_LTLIBRARIES) \
+	$(stream_extractor_LTLIBRARIES) $(stream_filter_LTLIBRARIES) \
+	$(text_LTLIBRARIES) $(vaapi_LTLIBRARIES) $(vdpau_LTLIBRARIES) \
 	$(video_filter_LTLIBRARIES) $(visu_LTLIBRARIES) \
 	$(vout_LTLIBRARIES)
 am__DEPENDENCIES_1 =
@@ -1656,8 +1658,8 @@ libdirect3d11_filters_plugin_la_DEPENDENCIES = libchroma_copy.la \
 	$(am__DEPENDENCIES_1)
 am_libdirect3d11_filters_plugin_la_OBJECTS =  \
 	hw/d3d11/d3d11_filters.lo hw/d3d11/d3d11_deinterlace.lo \
-	hw/d3d11/d3d11_surface.lo hw/d3d11/d3d11_instance.lo \
-	hw/d3d11/d3d11_processor.lo
+	hw/d3d11/d3d11_device.lo hw/d3d11/d3d11_surface.lo \
+	hw/d3d11/d3d11_instance.lo hw/d3d11/d3d11_processor.lo
 libdirect3d11_filters_plugin_la_OBJECTS =  \
 	$(am_libdirect3d11_filters_plugin_la_OBJECTS)
 libdirect3d11_filters_plugin_la_LINK = $(LIBTOOL) $(AM_V_lt) --tag=CC \
@@ -1698,7 +1700,7 @@ libdirect3d9_filters_plugin_la_DEPENDENCIES = libchroma_copy.la \
 	$(am__DEPENDENCIES_1)
 am_libdirect3d9_filters_plugin_la_OBJECTS = hw/d3d9/d3d9_filters.lo \
 	hw/d3d9/dxva2_deinterlace.lo hw/d3d9/dxa9.lo \
-	hw/d3d9/d3d9_instance.lo
+	hw/d3d9/d3d9_device.lo hw/d3d9/d3d9_instance.lo
 libdirect3d9_filters_plugin_la_OBJECTS =  \
 	$(am_libdirect3d9_filters_plugin_la_OBJECTS)
 libdirect3d9_filters_plugin_la_LINK = $(LIBTOOL) $(AM_V_lt) --tag=CC \
@@ -2093,6 +2095,12 @@ libglconv_cvpx_plugin_la_LINK = $(LIBTOOL) $(AM_V_lt) --tag=CC \
 #am_libglconv_cvpx_plugin_la_rpath = -rpath $(voutdir)
 am_libglconv_cvpx_plugin_la_rpath = -rpath $(voutdir)
 #am_libglconv_cvpx_plugin_la_rpath = -rpath $(voutdir)
+libglconv_nvdec_plugin_la_DEPENDENCIES = $(am__DEPENDENCIES_1)
+am_libglconv_nvdec_plugin_la_OBJECTS = hw/nvdec/nvdec_gl.lo
+libglconv_nvdec_plugin_la_OBJECTS =  \
+	$(am_libglconv_nvdec_plugin_la_OBJECTS)
+##am_libglconv_nvdec_plugin_la_rpath =  \
+##	-rpath $(nvdecdir)
 libglconv_vaapi_plugin_la_DEPENDENCIES = $(am__DEPENDENCIES_1)
 am_libglconv_vaapi_plugin_la_OBJECTS = video_output/opengl/libglconv_vaapi_plugin_la-converter_vaapi.lo \
 	hw/vaapi/libglconv_vaapi_plugin_la-vlc_vaapi.lo
@@ -2969,6 +2977,22 @@ libntservice_plugin_la_OBJECTS = $(am_libntservice_plugin_la_OBJECTS)
 libnuv_plugin_la_DEPENDENCIES = $(am__DEPENDENCIES_1)
 am_libnuv_plugin_la_OBJECTS = demux/nuv.lo
 libnuv_plugin_la_OBJECTS = $(am_libnuv_plugin_la_OBJECTS)
+libnvdec_chroma_plugin_la_LIBADD =
+am_libnvdec_chroma_plugin_la_OBJECTS = hw/nvdec/chroma.lo
+libnvdec_chroma_plugin_la_OBJECTS =  \
+	$(am_libnvdec_chroma_plugin_la_OBJECTS)
+libnvdec_chroma_plugin_la_LINK = $(LIBTOOL) $(AM_V_lt) --tag=CC \
+	$(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=link $(CCLD) \
+	$(AM_CFLAGS) $(CFLAGS) $(libnvdec_chroma_plugin_la_LDFLAGS) \
+	$(LDFLAGS) -o $@
+#am_libnvdec_chroma_plugin_la_rpath = -rpath \
+#	$(nvdecdir)
+libnvdec_plugin_la_DEPENDENCIES = $(am__DEPENDENCIES_1)
+am_libnvdec_plugin_la_OBJECTS = hw/nvdec/nvdec.lo codec/hxxx_helper.lo \
+	packetizer/hxxx_nal.lo packetizer/h264_nal.lo \
+	packetizer/hevc_nal.lo
+libnvdec_plugin_la_OBJECTS = $(am_libnvdec_plugin_la_OBJECTS)
+#am_libnvdec_plugin_la_rpath = -rpath $(codecdir)
 libogg_plugin_la_DEPENDENCIES = $(am__DEPENDENCIES_1) \
 	$(am__DEPENDENCIES_1) libxiph_metadata.la
 am_libogg_plugin_la_OBJECTS = demux/libogg_plugin_la-ogg.lo \
@@ -6683,13 +6707,17 @@ am__depfiles_remade = ./$(DEPDIR)/dummy.Plo \
 	gui/skins2/x11/$(DEPDIR)/libskins2_plugin_la-x11_tooltip.Plo \
 	gui/skins2/x11/$(DEPDIR)/libskins2_plugin_la-x11_window.Plo \
 	hw/d3d11/$(DEPDIR)/d3d11_deinterlace.Plo \
+	hw/d3d11/$(DEPDIR)/d3d11_device.Plo \
 	hw/d3d11/$(DEPDIR)/d3d11_filters.Plo \
 	hw/d3d11/$(DEPDIR)/d3d11_instance.Plo \
 	hw/d3d11/$(DEPDIR)/d3d11_processor.Plo \
 	hw/d3d11/$(DEPDIR)/d3d11_surface.Plo \
+	hw/d3d9/$(DEPDIR)/d3d9_device.Plo \
 	hw/d3d9/$(DEPDIR)/d3d9_filters.Plo \
 	hw/d3d9/$(DEPDIR)/d3d9_instance.Plo hw/d3d9/$(DEPDIR)/dxa9.Plo \
 	hw/d3d9/$(DEPDIR)/dxva2_deinterlace.Plo \
+	hw/nvdec/$(DEPDIR)/chroma.Plo hw/nvdec/$(DEPDIR)/nvdec.Plo \
+	hw/nvdec/$(DEPDIR)/nvdec_gl.Plo \
 	hw/vaapi/$(DEPDIR)/libdecdev_vaapi_drm_plugin_la-decoder_device.Plo \
 	hw/vaapi/$(DEPDIR)/libdecdev_vaapi_drm_plugin_la-vlc_vaapi.Plo \
 	hw/vaapi/$(DEPDIR)/libdecdev_vaapi_wl_plugin_la-decoder_device.Plo \
@@ -7350,6 +7378,7 @@ SOURCES = $(liba52_plugin_la_SOURCES) \
 	$(libgestures_plugin_la_SOURCES) $(libgl_plugin_la_SOURCES) \
 	$(libglconv_android_plugin_la_SOURCES) \
 	$(libglconv_cvpx_plugin_la_SOURCES) \
+	$(libglconv_nvdec_plugin_la_SOURCES) \
 	$(libglconv_vaapi_plugin_la_SOURCES) \
 	$(libglconv_vdpau_plugin_la_SOURCES) \
 	$(libgles2_plugin_la_SOURCES) \
@@ -7420,7 +7449,9 @@ SOURCES = $(liba52_plugin_la_SOURCES) \
 	$(libnotify_plugin_la_SOURCES) $(libnsc_plugin_la_SOURCES) \
 	$(libnsspeechsynthesizer_plugin_la_SOURCES) \
 	$(libnsv_plugin_la_SOURCES) $(libntservice_plugin_la_SOURCES) \
-	$(libnuv_plugin_la_SOURCES) $(libogg_plugin_la_SOURCES) \
+	$(libnuv_plugin_la_SOURCES) \
+	$(libnvdec_chroma_plugin_la_SOURCES) \
+	$(libnvdec_plugin_la_SOURCES) $(libogg_plugin_la_SOURCES) \
 	$(liboggspots_plugin_la_SOURCES) \
 	$(liboldmovie_plugin_la_SOURCES) $(libomxil_plugin_la_SOURCES) \
 	$(libopencv_example_plugin_la_SOURCES) \
@@ -7750,6 +7781,7 @@ DIST_SOURCES = $(liba52_plugin_la_SOURCES) \
 	$(am__libgl_plugin_la_SOURCES_DIST) \
 	$(libglconv_android_plugin_la_SOURCES) \
 	$(am__libglconv_cvpx_plugin_la_SOURCES_DIST) \
+	$(libglconv_nvdec_plugin_la_SOURCES) \
 	$(libglconv_vaapi_plugin_la_SOURCES) \
 	$(libglconv_vdpau_plugin_la_SOURCES) \
 	$(am__libgles2_plugin_la_SOURCES_DIST) \
@@ -7824,7 +7856,9 @@ DIST_SOURCES = $(liba52_plugin_la_SOURCES) \
 	$(libnotify_plugin_la_SOURCES) $(libnsc_plugin_la_SOURCES) \
 	$(libnsspeechsynthesizer_plugin_la_SOURCES) \
 	$(libnsv_plugin_la_SOURCES) $(libntservice_plugin_la_SOURCES) \
-	$(libnuv_plugin_la_SOURCES) $(libogg_plugin_la_SOURCES) \
+	$(libnuv_plugin_la_SOURCES) \
+	$(libnvdec_chroma_plugin_la_SOURCES) \
+	$(libnvdec_plugin_la_SOURCES) $(libogg_plugin_la_SOURCES) \
 	$(liboggspots_plugin_la_SOURCES) \
 	$(liboldmovie_plugin_la_SOURCES) $(libomxil_plugin_la_SOURCES) \
 	$(libopencv_example_plugin_la_SOURCES) \
@@ -8407,11 +8441,12 @@ am__DIST_COMMON = $(srcdir)/Makefile.in $(srcdir)/access/Makefile.am \
 	$(srcdir)/gui/macosx/Makefile.am $(srcdir)/gui/qt/Makefile.am \
 	$(srcdir)/gui/skins2/Makefile.am \
 	$(srcdir)/hw/d3d11/Makefile.am $(srcdir)/hw/d3d9/Makefile.am \
-	$(srcdir)/hw/vaapi/Makefile.am $(srcdir)/hw/vdpau/Makefile.am \
-	$(srcdir)/keystore/Makefile.am $(srcdir)/logger/Makefile.am \
-	$(srcdir)/lua/Makefile.am $(srcdir)/meta_engine/Makefile.am \
-	$(srcdir)/misc/Makefile.am $(srcdir)/mux/Makefile.am \
-	$(srcdir)/notify/Makefile.am $(srcdir)/packetizer/Makefile.am \
+	$(srcdir)/hw/nvdec/Makefile.am $(srcdir)/hw/vaapi/Makefile.am \
+	$(srcdir)/hw/vdpau/Makefile.am $(srcdir)/keystore/Makefile.am \
+	$(srcdir)/logger/Makefile.am $(srcdir)/lua/Makefile.am \
+	$(srcdir)/meta_engine/Makefile.am $(srcdir)/misc/Makefile.am \
+	$(srcdir)/mux/Makefile.am $(srcdir)/notify/Makefile.am \
+	$(srcdir)/packetizer/Makefile.am \
 	$(srcdir)/services_discovery/Makefile.am \
 	$(srcdir)/spu/Makefile.am \
 	$(srcdir)/stream_extractor/Makefile.am \
@@ -8466,10 +8501,10 @@ AOM_CFLAGS =
 AOM_LIBS = 
 AR = ar
 ARCH = x86_64 mmx sse sse2 avx avx2
-ARCHIVE_CFLAGS = -I/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/include
-ARCHIVE_LIBS = -L/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/lib -larchive -llzma -lbz2 -lz
-ARIBB24_CFLAGS = -I/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/include -I/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/include/libpng16
-ARIBB24_LIBS = -L/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/lib -laribb24 -lm -lpng16 -lz
+ARCHIVE_CFLAGS = -I/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/include 
+ARCHIVE_LIBS = -L/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/lib -larchive -llzma -lbz2 -lz 
+ARIBB24_CFLAGS = -I/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/include -I/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/include/libpng16 
+ARIBB24_LIBS = -L/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/lib -laribb24 -lm -lpng16 -lz 
 ARIBB25_CFLAGS = 
 ARIBB25_LIBS = 
 AS = as
@@ -8481,15 +8516,15 @@ AUTOHEADER = ${SHELL} /Users/nlandsberg/vlc/autotools/missing autoheader
 AUTOMAKE = ${SHELL} /Users/nlandsberg/vlc/autotools/missing automake-1.16
 AVAHI_CFLAGS = 
 AVAHI_LIBS = 
-AVCODEC_CFLAGS = -I/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/include
-AVCODEC_LIBS = -L/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/lib -lavcodec -framework CoreFoundation -framework VideoDecodeAcceleration -framework QuartzCore -lvpx -lm -lpthread -lopenjpeg -DOPJ_STATIC -lmp3lame -lgsm -lm -lz -pthread -lavutil -lm
-AVFORMAT_CFLAGS = -I/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/include
-AVFORMAT_LIBS = -L/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/lib -lavformat -framework CoreFoundation -framework VideoDecodeAcceleration -framework QuartzCore -lvpx -lm -lpthread -lopenjpeg -DOPJ_STATIC -lmp3lame -lgsm -lm -lz -pthread -lavcodec -framework CoreFoundation -framework VideoDecodeAcceleration -framework QuartzCore -lvpx -lm -lpthread -lopenjpeg -DOPJ_STATIC -lmp3lame -lgsm -lm -lz -pthread -lavutil -lm
+AVCODEC_CFLAGS = -I/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/include 
+AVCODEC_LIBS = -L/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/lib -lavcodec -framework CoreFoundation -framework VideoDecodeAcceleration -framework QuartzCore -lvpx -lm -lpthread -lopenjpeg -DOPJ_STATIC -lmp3lame -lgsm -lm -lz -pthread -lavutil -lm 
+AVFORMAT_CFLAGS = -I/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/include 
+AVFORMAT_LIBS = -L/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/lib -lavformat -framework CoreFoundation -framework VideoDecodeAcceleration -framework QuartzCore -lvpx -lm -lpthread -lopenjpeg -DOPJ_STATIC -lmp3lame -lgsm -lm -lz -pthread -lavcodec -framework CoreFoundation -framework VideoDecodeAcceleration -framework QuartzCore -lvpx -lm -lpthread -lopenjpeg -DOPJ_STATIC -lmp3lame -lgsm -lm -lz -pthread -lavutil -lm 
 AWK = awk
 BITSTREAM_CFLAGS = 
 BITSTREAM_LIBS = 
-BLURAY_CFLAGS = -I/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/include
-BLURAY_LIBS = -L/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/lib -lbluray -lxml2 -lm -lfreetype -lz
+BLURAY_CFLAGS = -I/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/include 
+BLURAY_LIBS = -L/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/lib -lbluray -lxml2 -lm -lfreetype -lz 
 BREAKPAD_CFLAGS = 
 BREAKPAD_LIBS = 
 BREAKPAD_URL = 
@@ -8497,92 +8532,92 @@ BUILDCC = c99
 BUILDEXEEXT = 
 CACA_CFLAGS = 
 CACA_LIBS = 
-CC = gcc -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -mmacosx-version-min=10.11
+CC = gcc -mmacosx-version-min=10.11
 CCAS = gcc
 CCASDEPMODE = depmode=gcc3
 CCASFLAGS =  
 CCDEPMODE = depmode=gcc3
 CFLAGS =   -Werror=unknown-warning-option -Werror=invalid-command-line-argument -D_INTL_REDIRECT_MACROS -std=gnu11 -arch x86_64 -I/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/include -Wall -Wextra -Wsign-compare -Wundef -Wpointer-arith -Wvolatile-register-var -Wformat -Wformat-security -Wbad-function-cast -Wwrite-strings -Wmissing-prototypes -Werror-implicit-function-declaration -Winit-self -pipe -fvisibility=hidden -fno-math-errno -funsafe-math-optimizations -funroll-loops -fstack-protector-strong
 CFLAGS_access_mtp = 
-CFLAGS_access_output_shout =  -D_THREAD_SAFE -I/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/include 
+CFLAGS_access_output_shout =  -D_THREAD_SAFE -I/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/include  
 CFLAGS_access_output_srt = 
 CFLAGS_access_srt = 
 CFLAGS_aom = 
-CFLAGS_archive =  -I/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/include 
+CFLAGS_archive =  -I/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/include  
 CFLAGS_aribcam = 
 CFLAGS_avahi = 
 CFLAGS_caca = 
-CFLAGS_cdda =  -I/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/include
+CFLAGS_cdda =  -I/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/include 
 CFLAGS_daala = 
 CFLAGS_dav1d = 
 CFLAGS_dc1394 = 
-CFLAGS_dca =  -I/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/include/libdca 
+CFLAGS_dca =  -I/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/include/libdca  
 CFLAGS_deinterlace = 
 CFLAGS_dsm = 
 CFLAGS_dv1394 = 
 CFLAGS_dvdnav = 
 CFLAGS_dvdread = 
 CFLAGS_fdkaac = 
-CFLAGS_flac =  -I/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/include 
-CFLAGS_fluidsynth =  -I/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/include 
+CFLAGS_flac =  -I/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/include  
+CFLAGS_fluidsynth =  -I/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/include  
 CFLAGS_gles2 = 
-CFLAGS_goom =  -I/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/include 
-CFLAGS_kate =  -I/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/include 
+CFLAGS_goom =  -I/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/include  
+CFLAGS_kate =  -I/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/include  
 CFLAGS_kms = 
-CFLAGS_libbluray =  -I/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/include 
-CFLAGS_libmpeg2 =  -I/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/include/mpeg2dec 
+CFLAGS_libbluray =  -I/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/include  
+CFLAGS_libmpeg2 =  -I/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/include/mpeg2dec  
 CFLAGS_libvlccore = 
 CFLAGS_medialibrary = 
 CFLAGS_microdns = 
 CFLAGS_mkv = 
 CFLAGS_mmal = 
 CFLAGS_mod = 
-CFLAGS_mpg123 =  -I/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/include 
+CFLAGS_mpg123 =  -I/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/include  
 CFLAGS_mtp = 
-CFLAGS_mux_ogg =  -I/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/include 
-CFLAGS_nfs =  -I/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/include 
+CFLAGS_mux_ogg =  -I/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/include  
+CFLAGS_nfs =  -I/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/include  
 CFLAGS_notify = 
-CFLAGS_ogg =  -I/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/include -I/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/include
-CFLAGS_oggspots =  -I/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/include 
+CFLAGS_ogg =  -I/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/include  -I/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/include 
+CFLAGS_oggspots =  -I/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/include  
 CFLAGS_omxil = 
 CFLAGS_opencv_example = 
 CFLAGS_opencv_wrapper = 
-CFLAGS_opus =  -I/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/include -I/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/include/opus 
+CFLAGS_opus =  -I/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/include -I/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/include/opus  
 CFLAGS_qsv = 
 CFLAGS_rdp = 
-CFLAGS_samplerate =  -I/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/include 
-CFLAGS_schroedinger =  -I/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/include/schroedinger-1.0 -I/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/include/orc-0.4 
+CFLAGS_samplerate =  -I/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/include  
+CFLAGS_schroedinger =  -I/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/include/schroedinger-1.0 -I/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/include/orc-0.4  
 CFLAGS_secret = 
-CFLAGS_sftp =  -I/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/include 
+CFLAGS_sftp =  -I/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/include  
 CFLAGS_shine = 
-CFLAGS_sid =  -DHAVE_UNIX -I/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/include
+CFLAGS_sid =  -DHAVE_UNIX -I/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/include 
 CFLAGS_smb2 = 
 CFLAGS_smbc = 
 CFLAGS_soxr = 
 CFLAGS_spatialaudio = 
-CFLAGS_speex =  -I/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/include 
+CFLAGS_speex =  -I/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/include  
 CFLAGS_svg = 
 CFLAGS_svgdec = 
-CFLAGS_swscale =  -I/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/include
-CFLAGS_theora =  -I/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/include 
-CFLAGS_twolame =  -I/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/include 
+CFLAGS_swscale =  -I/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/include 
+CFLAGS_theora =  -I/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/include  
+CFLAGS_twolame =  -I/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/include  
 CFLAGS_udev = 
-CFLAGS_upnp =  -D_THREAD_SAFE -I/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/include/upnp 
+CFLAGS_upnp =  -D_THREAD_SAFE -I/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/include/upnp  
 CFLAGS_vnc = 
-CFLAGS_vorbis =  -I/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/include 
+CFLAGS_vorbis =  -I/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/include  
 CFLAGS_x262 = 
-CFLAGS_x264 =  -I/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/include
+CFLAGS_x264 =  -I/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/include 
 CFLAGS_x26410b = 
-CFLAGS_x265 =  -I/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/include 
-CFLAGS_xml =  -I/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/include/libxml2 
-CHROMAPRINT_CFLAGS = -I/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/include
-CHROMAPRINT_LIBS = -L/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/lib -lchromaprint -lavcodec -lavutil
-CHROMECAST_CFLAGS = -D_THREAD_SAFE -I/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/include
-CHROMECAST_LIBS = -L/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/lib -lprotobuf-lite -D_THREAD_SAFE
+CFLAGS_x265 =  -I/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/include  
+CFLAGS_xml =  -I/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/include/libxml2  
+CHROMAPRINT_CFLAGS = -I/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/include 
+CHROMAPRINT_LIBS = -L/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/lib -lchromaprint -lavcodec -lavutil 
+CHROMECAST_CFLAGS = -D_THREAD_SAFE -I/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/include 
+CHROMECAST_LIBS = -L/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/lib -lprotobuf-lite -D_THREAD_SAFE 
 CONTRIB_DIR = /Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15
 COPYRIGHT_MESSAGE = Copyright © 1996-2019 the VideoLAN team
 COPYRIGHT_YEARS = 1996-2019
-CPP = gcc -E -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -mmacosx-version-min=10.11
+CPP = gcc -E -mmacosx-version-min=10.11
 CPPFLAGS = -I$(top_srcdir)/include -I$(top_builddir)/include  -arch x86_64 -I/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/include
 CPPFLAGS_a52 =  
 CPPFLAGS_access_mtp = 
@@ -8632,7 +8667,7 @@ CPPFLAGS_schroedinger =
 CPPFLAGS_secret = 
 CPPFLAGS_sftp = 
 CPPFLAGS_shine = 
-CPPFLAGS_skins2 =  -I/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/include/freetype2 -I/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/include -I/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/include/fribidi -DHAVE_FRIBIDI -I/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/include/harfbuzz -DHAVE_HARFBUZZ
+CPPFLAGS_skins2 =  -I/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/include/freetype2 -I/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/include  -I/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/include/fribidi  -DHAVE_FRIBIDI -I/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/include/harfbuzz  -DHAVE_HARFBUZZ
 CPPFLAGS_smb2 = 
 CPPFLAGS_smbc = 
 CPPFLAGS_soxr = 
@@ -8647,14 +8682,14 @@ CPPFLAGS_udev =
 CPPFLAGS_upnp = 
 CPPFLAGS_vnc = 
 CPPFLAGS_vorbis = 
-CPPFLAGS_vpx =  -I/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/include -DENABLE_VP8_DECODER -DENABLE_VP9_DECODER -DENABLE_VP8_ENCODER -DENABLE_VP9_ENCODER
+CPPFLAGS_vpx =  -I/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/include  -DENABLE_VP8_DECODER -DENABLE_VP9_DECODER -DENABLE_VP8_ENCODER -DENABLE_VP9_ENCODER
 CPPFLAGS_x265 = 
 CPPFLAGS_xml = 
-CXX = g++ -stdlib=libc++ -std=c++11 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -mmacosx-version-min=10.11
-CXXCPP = g++ -stdlib=libc++ -std=c++11 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -mmacosx-version-min=10.11 -E
+CXX = g++ -stdlib=libc++ -std=c++11 -mmacosx-version-min=10.11
+CXXCPP = g++ -stdlib=libc++ -std=c++11 -mmacosx-version-min=10.11 -E
 CXXDEPMODE = depmode=gcc3
 CXXFLAGS = -g -O2 -std=c++14 -Werror=unknown-warning-option -Werror=invalid-command-line-argument -D_INTL_REDIRECT_MACROS -arch x86_64 -I/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/include -Wall -Wextra -Wsign-compare -Wundef -Wpointer-arith -Wvolatile-register-var -Wformat -Wformat-security -fvisibility=hidden -fno-math-errno -funsafe-math-optimizations -funroll-loops -fstack-protector-strong
-CXXFLAGS_live555 =  -I/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/include/liveMedia -I/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/include/groupsock -I/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/include/BasicUsageEnvironment -I/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/include/UsageEnvironment
+CXXFLAGS_live555 =  -I/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/include/liveMedia -I/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/include/groupsock -I/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/include/BasicUsageEnvironment -I/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/include/UsageEnvironment 
 CXXFLAGS_mod = 
 CYGPATH_W = echo
 DAALA_CFLAGS = 
@@ -8665,8 +8700,8 @@ DBUS_CFLAGS =
 DBUS_LIBS = 
 DC1394_CFLAGS = 
 DC1394_LIBS = 
-DCA_CFLAGS = -I/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/include/libdca
-DCA_LIBS = -L/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/lib -ldca
+DCA_CFLAGS = -I/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/include/libdca 
+DCA_LIBS = -L/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/lib -ldca 
 DEFS = -DHAVE_CONFIG_H
 DEFS_BIGENDIAN = 
 DEPDIR = .deps
@@ -8681,8 +8716,8 @@ DSYMUTIL = dsymutil
 DUMPBIN = :
 DV1394_CFLAGS = 
 DV1394_LIBS = 
-DVBPSI_CFLAGS = -I/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/include
-DVBPSI_LIBS = -L/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/lib -ldvbpsi
+DVBPSI_CFLAGS = -I/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/include 
+DVBPSI_LIBS = -L/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/lib -ldvbpsi 
 DVDNAV_CFLAGS = 
 DVDNAV_LIBS = 
 DVDREAD_CFLAGS = 
@@ -8699,20 +8734,20 @@ FDKAAC_LIBS =
 FGREP = /usr/bin/grep -F
 FILE_LIBVLCCORE_DLL = 
 FILE_LIBVLC_DLL = 
-FLAC_CFLAGS = -I/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/include
-FLAC_LIBS = -L/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/lib -lFLAC -lm -logg
-FLUIDLITE_CFLAGS = -I/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/include
-FLUIDLITE_LIBS = -L/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/lib -lfluidlite -logg
+FLAC_CFLAGS = -I/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/include 
+FLAC_LIBS = -L/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/lib -lFLAC -lm -logg 
+FLUIDLITE_CFLAGS = -I/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/include 
+FLUIDLITE_LIBS = -L/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/lib -lfluidlite -logg 
 FLUIDSYNTH_CFLAGS = 
-FLUIDSYNTH_LIBS = -L/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/lib -lfluidlite -logg
+FLUIDSYNTH_LIBS = -L/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/lib -lfluidlite -logg 
 FONTCONFIG_CFLAGS = 
 FONTCONFIG_LIBS = 
 FREERDP_CFLAGS = 
 FREERDP_LIBS = 
-FREETYPE_CFLAGS = -I/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/include/freetype2 -I/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/include
-FREETYPE_LIBS = -L/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/lib -lfreetype -lz
-FRIBIDI_CFLAGS = -I/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/include/fribidi
-FRIBIDI_LIBS = -L/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/lib -lfribidi
+FREETYPE_CFLAGS = -I/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/include/freetype2 -I/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/include 
+FREETYPE_LIBS = -L/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/lib -lfreetype -lz 
+FRIBIDI_CFLAGS = -I/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/include/fribidi 
+FRIBIDI_LIBS = -L/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/lib -lfribidi 
 GCRYPT_CFLAGS = 
 GCRYPT_LIBS = -lgcrypt -lgpg-error
 GETTEXT_MACRO_VERSION = 0.19
@@ -8725,15 +8760,15 @@ GMSGFMT_015 = /Users/nlandsberg/vlc/extras/tools/build/bin/msgfmt
 GNUGETOPT_LIBS = 
 GNUTLS_CFLAGS = 
 GNUTLS_LIBS = 
-GOOM_CFLAGS = -I/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/include
-GOOM_LIBS = -L/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/lib -lgoom2
+GOOM_CFLAGS = -I/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/include 
+GOOM_LIBS = -L/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/lib -lgoom2 
 GREP = /usr/bin/grep
 GST_APP_CFLAGS = 
 GST_APP_LIBS = 
 GST_VIDEO_CFLAGS = 
 GST_VIDEO_LIBS = 
-HARFBUZZ_CFLAGS = -I/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/include/harfbuzz
-HARFBUZZ_LIBS = -L/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/lib -lharfbuzz -framework CoreText -framework CoreGraphics -framework CoreFoundation
+HARFBUZZ_CFLAGS = -I/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/include/harfbuzz 
+HARFBUZZ_LIBS = -L/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/lib -lharfbuzz -framework CoreText -framework CoreGraphics -framework CoreFoundation 
 HAVE_CXX14 = 
 IDN_CFLAGS = 
 IDN_LIBS = 
@@ -8747,13 +8782,13 @@ INTL_MACOSX_LIBS = -Wl,-framework -Wl,CoreFoundation
 JACK_CFLAGS = 
 JACK_LIBS = 
 KAI_LIBS = 
-KATE_CFLAGS = -I/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/include
-KATE_LIBS = -L/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/lib -lkate
+KATE_CFLAGS = -I/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/include 
+KATE_LIBS = -L/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/lib -lkate 
 KDE4_CONFIG = kde4-config
 KMS_CFLAGS = 
 KMS_LIBS = 
 KVA_LIBS = 
-LD =  -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -mmacosx_version_min=10.11
+LD =  -mmacosx_version_min=10.11
 LDFLAGS =  -Wl,-headerpad_max_install_names -arch x86_64 -L/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/lib
 LDFLAGS_live555 = 
 LDFLAGS_mmal = 
@@ -8763,10 +8798,10 @@ LDFLAGS_x26410b =
 LEX = flex
 LEXLIB = -ll
 LEX_OUTPUT_ROOT = lex.yy
-LIBASS_CFLAGS = -I/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/include -I/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/include/harfbuzz -I/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/include/fribidi -I/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/include/freetype2 -I/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/include
-LIBASS_LIBS = -L/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/lib -lass -lm -liconv -lharfbuzz -framework CoreText -framework CoreGraphics -framework CoreFoundation -lfribidi -lfreetype -lz
-LIBCDDB_CFLAGS = -I/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/include
-LIBCDDB_LIBS = -L/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/lib -lcddb
+LIBASS_CFLAGS = -I/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/include -I/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/include/harfbuzz -I/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/include/fribidi -I/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/include/freetype2 -I/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/include 
+LIBASS_LIBS = -L/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/lib -lass -lm -liconv -lharfbuzz -framework CoreText -framework CoreGraphics -framework CoreFoundation -lfribidi -lfreetype -lz 
+LIBCDDB_CFLAGS = -I/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/include 
+LIBCDDB_LIBS = -L/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/lib -lcddb 
 LIBCOM = 
 LIBDL = 
 LIBEXT = .dylib
@@ -8775,8 +8810,8 @@ LIBINTL = /Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/lib/libintl.a -lic
 LIBM = -lm
 LIBMODPLUG_CFLAGS = 
 LIBMODPLUG_LIBS = 
-LIBMPEG2_CFLAGS = -I/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/include/mpeg2dec
-LIBMPEG2_LIBS = -L/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/lib -lmpeg2
+LIBMPEG2_CFLAGS = -I/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/include/mpeg2dec 
+LIBMPEG2_LIBS = -L/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/lib -lmpeg2 
 LIBOBJS =  ${LIBOBJDIR}aligned_alloc$U.o ${LIBOBJDIR}memrchr$U.o ${LIBOBJDIR}tdestroy$U.o ${LIBOBJDIR}timespec_get$U.o ${LIBOBJDIR}strverscmp$U.o ${LIBOBJDIR}sincos$U.o
 LIBPLACEBO_CFLAGS = 
 LIBPLACEBO_LIBS = 
@@ -8784,21 +8819,21 @@ LIBRT =
 LIBS = 
 LIBS_a52 =  -la52 -lm 
 LIBS_access_mtp = 
-LIBS_access_output_shout = -L/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/lib -lshout -lvorbis -lm -ltheora -logg -lspeex  
+LIBS_access_output_shout = -L/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/lib -lshout -lvorbis -lm -ltheora -logg -lspeex   
 LIBS_access_output_srt = 
 LIBS_access_srt = 
 LIBS_aom = 
-LIBS_archive = -L/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/lib -larchive -llzma -lbz2 -lz  
+LIBS_archive = -L/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/lib -larchive -llzma -lbz2 -lz   
 LIBS_aribcam = 
 LIBS_aribsub = -laribb24 
 LIBS_avahi = 
 LIBS_caca = 
-LIBS_cdda = -L/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/lib -lcddb 
+LIBS_cdda = -L/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/lib -lcddb  
 LIBS_crystalhd = 
 LIBS_daala = 
 LIBS_dav1d = 
 LIBS_dc1394 = 
-LIBS_dca = -L/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/lib -ldca  
+LIBS_dca = -L/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/lib -ldca   
 LIBS_decklink = 
 LIBS_decklinkoutput = 
 LIBS_dsm = 
@@ -8807,66 +8842,66 @@ LIBS_dvdnav =
 LIBS_dvdread = 
 LIBS_faad = -lfaad 
 LIBS_fdkaac = 
-LIBS_flac = -L/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/lib -lFLAC -lm -logg  
-LIBS_fluidsynth = -L/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/lib -lfluidlite -logg  
+LIBS_flac = -L/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/lib -lFLAC -lm -logg   
+LIBS_fluidsynth = -L/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/lib -lfluidlite -logg   
 LIBS_gles2 = 
 LIBS_gme = -lgme -lstdc++ -lm 
-LIBS_goom = -L/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/lib -lgoom2  
-LIBS_kate = -L/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/lib -lkate  
+LIBS_goom = -L/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/lib -lgoom2   
+LIBS_kate = -L/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/lib -lkate   
 LIBS_kms = 
 LIBS_libass = 
-LIBS_libbluray = -L/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/lib -lbluray -lxml2 -lm -lfreetype -lz  
-LIBS_libmpeg2 = -L/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/lib -lmpeg2  
+LIBS_libbluray = -L/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/lib -lbluray -lxml2 -lm -lfreetype -lz   
+LIBS_libmpeg2 = -L/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/lib -lmpeg2   
 LIBS_libvlc = -Wl,-undefined,dynamic_lookup,-framework,AppKit 
 LIBS_libvlccore = -Wl,-framework,CoreFoundation,-framework,CoreServices 
-LIBS_live555 = -L/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/lib -lliveMedia -lgroupsock -lBasicUsageEnvironment -lUsageEnvironment 
+LIBS_live555 = -L/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/lib -lliveMedia -lgroupsock -lBasicUsageEnvironment -lUsageEnvironment  
 LIBS_medialibrary = 
 LIBS_microdns = 
 LIBS_mkv = 
 LIBS_mmal = 
 LIBS_mod = 
 LIBS_mpc = 
-LIBS_mpg123 = -L/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/lib -lmpg123  
+LIBS_mpg123 = -L/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/lib -lmpg123   
 LIBS_mtp = 
-LIBS_mux_ogg = -L/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/lib -logg  
-LIBS_nfs = -L/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/lib -lnfs  
+LIBS_mux_ogg = -L/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/lib -logg   
+LIBS_nfs = -L/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/lib -lnfs   
 LIBS_notify = 
-LIBS_ogg = -L/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/lib -logg -L/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/lib -lvorbis -lm -logg 
-LIBS_oggspots = -L/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/lib -logg  
+LIBS_ogg = -L/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/lib -logg  -L/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/lib -lvorbis -lm -logg  
+LIBS_oggspots = -L/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/lib -logg   
 LIBS_opencv_example = 
 LIBS_opencv_wrapper = 
-LIBS_opus = -L/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/lib -logg -lopus  
+LIBS_opus = -L/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/lib -logg -lopus   
 LIBS_qsv = 
 LIBS_rdp = 
-LIBS_samplerate = -L/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/lib -lsamplerate  
+LIBS_samplerate = -L/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/lib -lsamplerate   
 LIBS_sap = -lz 
-LIBS_schroedinger = -L/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/lib -lschroedinger-1.0 -lorc-0.4 -lpthread  
+LIBS_schroedinger = -L/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/lib -lschroedinger-1.0 -lorc-0.4 -lpthread   
 LIBS_secret = 
-LIBS_sftp = -L/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/lib -lssh2 -Wl,-syslibroot,/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk -mmacosx-version-min=10.7 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk -DMACOSX_DEPLOYMENT_TARGET=10.7 -m64 -lgcrypt -lgpg-error -lz -lgcrypt -lgpg-error -lz  
+LIBS_sftp = -L/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/lib -lssh2 -Wl,-syslibroot,/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk -mmacosx-version-min=10.7 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk -DMACOSX_DEPLOYMENT_TARGET=10.7 -m64 -lgcrypt -lgpg-error -lz -lgcrypt -lgpg-error -lz   
 LIBS_shine = 
-LIBS_sid = /Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/lib/libsidplay2.la -lresid-builder 
-LIBS_skins2 = -L/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/lib -lharfbuzz -framework CoreText -framework CoreGraphics -framework CoreFoundation -L/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/lib -lfribidi -L/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/lib -lfreetype -lz -lm 
+LIBS_sid = /Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/lib/libsidplay2.la  -lresid-builder 
+LIBS_skins2 = -L/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/lib -lharfbuzz -framework CoreText -framework CoreGraphics -framework CoreFoundation  -L/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/lib -lfribidi  -L/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/lib -lfreetype -lz  -lm 
 LIBS_smb2 = 
 LIBS_smbc = 
 LIBS_soxr = 
 LIBS_spatialaudio = 
-LIBS_speex = -L/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/lib -logg -lspeex  
+LIBS_speex = -L/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/lib -logg -lspeex   
 LIBS_svg = 
 LIBS_svgdec = 
-LIBS_swscale = -L/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/lib -lswscale -lm -lavutil -lm 
-LIBS_theora = -L/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/lib -ltheoraenc -ltheoradec -logg  
-LIBS_twolame = -L/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/lib -ltwolame  
+LIBS_swscale = -L/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/lib -lswscale -lm -lavutil -lm  
+LIBS_theora = -L/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/lib -ltheoraenc -ltheoradec -logg   
+LIBS_twolame = -L/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/lib -ltwolame   
 LIBS_udev = 
-LIBS_upnp = -L/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/lib -D_THREAD_SAFE -lupnp -lthreadutil -lixml  
+LIBS_upnp = -L/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/lib -D_THREAD_SAFE -lupnp -lthreadutil -lixml   
 LIBS_vlc = -Wl,-undefined,dynamic_lookup,-framework,AppKit 
 LIBS_vnc = 
-LIBS_vorbis = -L/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/lib -lvorbisenc -lvorbis -lm -logg  
-LIBS_vpx = -L/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/lib -lvpx -lm -lpthread 
+LIBS_vorbis = -L/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/lib -lvorbisenc -lvorbis -lm -logg   
+LIBS_vpx = -L/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/lib -lvpx -lm -lpthread  
 LIBS_x262 = 
-LIBS_x264 = -L/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/lib -lx264 -lpthread -lm -ldl 
+LIBS_x264 = -L/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/lib -lx264 -lpthread -lm -ldl  
 LIBS_x26410b = 
-LIBS_x265 = -L/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/lib -lx265 -lc++ -ldl -lpthread  
-LIBS_xml = -L/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/lib -lxml2 -lm  
+LIBS_x265 = -L/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/lib -lx265 -lc++ -ldl -lpthread   
+LIBS_xml = -L/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/lib -lxml2 -lm   
 LIBTOOL = $(top_builddir)/doltlibtool
 LIBVA_CFLAGS = 
 LIBVA_DRM_CFLAGS = 
@@ -8876,15 +8911,15 @@ LIBVA_WL_CFLAGS =
 LIBVA_WL_LIBS = 
 LIBVA_X11_CFLAGS = 
 LIBVA_X11_LIBS = 
-LIBVORBIS_CFLAGS = -I/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/include
-LIBVORBIS_LIBS = -L/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/lib -lvorbis -lm -logg
-LIBXML2_CFLAGS = -I/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/include/libxml2
-LIBXML2_LIBS = -L/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/lib -lxml2 -lm
+LIBVORBIS_CFLAGS = -I/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/include 
+LIBVORBIS_LIBS = -L/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/lib -lvorbis -lm -logg 
+LIBXML2_CFLAGS = -I/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/include/libxml2 
+LIBXML2_LIBS = -L/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/lib -lxml2 -lm 
 LINSYS_SDI_CFLAGS = 
 LINSYS_SDI_LIBS = 
 LIPO = lipo
-LIVE555_CFLAGS = -I/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/include/liveMedia -I/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/include/groupsock -I/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/include/BasicUsageEnvironment -I/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/include/UsageEnvironment
-LIVE555_LIBS = -L/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/lib -lliveMedia -lgroupsock -lBasicUsageEnvironment -lUsageEnvironment
+LIVE555_CFLAGS = -I/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/include/liveMedia -I/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/include/groupsock -I/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/include/BasicUsageEnvironment -I/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/include/UsageEnvironment 
+LIVE555_LIBS = -L/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/lib -lliveMedia -lgroupsock -lBasicUsageEnvironment -lUsageEnvironment 
 LN_S = ln -s
 LTCOMPILE = $(top_builddir)/doltcompile $(COMPILE)
 LTCXXCOMPILE = $(top_builddir)/doltcompile $(CXXCOMPILE)
@@ -9004,8 +9039,8 @@ LTLIBxml = libxml_plugin.la
 LTLIBzvbi = libzvbi_plugin.la
 LT_SYS_LIBRARY_PATH = 
 LUAC = /Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/bin/luac
-LUA_CFLAGS = -I/usr/local/include/lua
-LUA_LIBS = -L/usr/local/lib -llua -lm
+LUA_CFLAGS = 
+LUA_LIBS = -llua
 MACOSX_DEPLOYMENT_TARGET = 
 MAD_CFLAGS = 
 MAD_LIBS =  -lmad
@@ -9023,35 +9058,35 @@ MICRODNS_CFLAGS =
 MICRODNS_LIBS = 
 MKDIR_P = ../../extras/package/macosx/../../../autotools/install-sh -c -d
 MOC = 
-MPG123_CFLAGS = -I/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/include
-MPG123_LIBS = -L/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/lib -lmpg123
+MPG123_CFLAGS = -I/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/include 
+MPG123_LIBS = -L/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/lib -lmpg123 
 MSGFMT = /Users/nlandsberg/vlc/extras/tools/build/bin/msgfmt
 MSGFMT_015 = /Users/nlandsberg/vlc/extras/tools/build/bin/msgfmt
 MSGMERGE = /Users/nlandsberg/vlc/extras/tools/build/bin/msgmerge
 MTP_CFLAGS = 
 MTP_LIBS = 
-NCURSES_CFLAGS = -I/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/include
-NCURSES_LIBS = -L/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/lib -lncursesw
-NFS_CFLAGS = -I/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/include
-NFS_LIBS = -L/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/lib -lnfs
+NCURSES_CFLAGS = -I/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/include 
+NCURSES_LIBS = -L/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/lib -lncursesw 
+NFS_CFLAGS = -I/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/include 
+NFS_LIBS = -L/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/lib -lnfs 
 NM = nm
 NMEDIT = nmedit
 NOTIFY_CFLAGS = 
 NOTIFY_LIBS = 
-OBJC = gcc -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -mmacosx-version-min=10.11
+OBJC = gcc -mmacosx-version-min=10.11
 OBJCDEPMODE = depmode=gcc3
 OBJCFLAGS = -g -O2 -D_INTL_REDIRECT_MACROS -std=gnu11 -arch x86_64 -Werror=partial-availability -I/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/include -F/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15 -F/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/Frameworks -fvisibility=hidden -funroll-loops
 OBJCOPY = 
 OBJDUMP = objdump
 OBJEXT = o
-OGGSPOTS_CFLAGS = -I/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/include
-OGGSPOTS_LIBS = -L/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/lib -logg
-OGG_CFLAGS = -I/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/include
-OGG_LIBS = -L/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/lib -logg
+OGGSPOTS_CFLAGS = -I/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/include 
+OGGSPOTS_LIBS = -L/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/lib -logg 
+OGG_CFLAGS = -I/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/include 
+OGG_LIBS = -L/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/lib -logg 
 OPENCV_CFLAGS = 
 OPENCV_LIBS = 
-OPUS_CFLAGS = -I/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/include -I/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/include/opus
-OPUS_LIBS = -L/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/lib -logg -lopus
+OPUS_CFLAGS = -I/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/include -I/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/include/opus 
+OPUS_LIBS = -L/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/lib -logg -lopus 
 OSS_LIBS = 
 OTOOL = otool
 OTOOL64 = :
@@ -9064,11 +9099,11 @@ PACKAGE_URL =
 PACKAGE_VERSION = 4.0.0-dev
 PATH_SEPARATOR = :
 PKGDIR = vlc
-PKG_CONFIG = /usr/local/bin/pkg-config --static
+PKG_CONFIG = /Users/nlandsberg/vlc/extras/tools/build/bin/pkg-config --static
 PKG_CONFIG_LIBDIR = 
 PKG_CONFIG_PATH = /Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/lib/pkgconfig:/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/share/pkgconfig:
-POSTPROC_CFLAGS = -I/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/include
-POSTPROC_LIBS = -L/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/lib -lpostproc -lavutil -lm
+POSTPROC_CFLAGS = -I/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/include 
+POSTPROC_LIBS = -L/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/lib -lpostproc -lavutil -lm 
 POSUB = po
 PROGRAMFILES = 
 PROJECTM_CFLAGS = 
@@ -9085,10 +9120,10 @@ QT_VERSION =
 RANLIB = ranlib
 RC = 
 RCC = 
-SAMPLERATE_CFLAGS = -I/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/include
-SAMPLERATE_LIBS = -L/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/lib -lsamplerate
-SCHROEDINGER_CFLAGS = -I/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/include/schroedinger-1.0 -I/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/include/orc-0.4
-SCHROEDINGER_LIBS = -L/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/lib -lschroedinger-1.0 -lorc-0.4 -lpthread
+SAMPLERATE_CFLAGS = -I/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/include 
+SAMPLERATE_LIBS = -L/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/lib -lsamplerate 
+SCHROEDINGER_CFLAGS = -I/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/include/schroedinger-1.0 -I/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/include/orc-0.4 
+SCHROEDINGER_LIBS = -L/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/lib -lschroedinger-1.0 -lorc-0.4 -lpthread 
 SDL_IMAGE_CFLAGS = 
 SDL_IMAGE_LIBS = 
 SECRET_CFLAGS = 
@@ -9096,15 +9131,15 @@ SECRET_LIBS =
 SED = /usr/bin/sed
 SET_MAKE = 
 SEVENZIP = 
-SFTP_CFLAGS = -I/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/include
-SFTP_LIBS = -L/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/lib -lssh2 -Wl,-syslibroot,/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk -mmacosx-version-min=10.7 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk -DMACOSX_DEPLOYMENT_TARGET=10.7 -m64 -lgcrypt -lgpg-error -lz -lgcrypt -lgpg-error -lz
+SFTP_CFLAGS = -I/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/include 
+SFTP_LIBS = -L/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/lib -lssh2 -Wl,-syslibroot,/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk -mmacosx-version-min=10.7 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk -DMACOSX_DEPLOYMENT_TARGET=10.7 -m64 -lgcrypt -lgpg-error -lz -lgcrypt -lgpg-error -lz 
 SHELL = /bin/sh
 SHINE_CFLAGS = 
 SHINE_LIBS = 
-SHOUT_CFLAGS = -D_THREAD_SAFE -I/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/include
-SHOUT_LIBS = -L/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/lib -lshout -lvorbis -lm -ltheora -logg -lspeex
-SID_CFLAGS = -DHAVE_UNIX -I/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/include
-SID_LIBS = /Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/lib/libsidplay2.la
+SHOUT_CFLAGS = -D_THREAD_SAFE -I/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/include 
+SHOUT_LIBS = -L/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/lib -lshout -lvorbis -lm -ltheora -logg -lspeex 
+SID_CFLAGS = -DHAVE_UNIX -I/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/include 
+SID_LIBS = /Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/lib/libsidplay2.la 
 SMB2_CFLAGS = 
 SMB2_LIBS = 
 SMBCLIENT_CFLAGS = 
@@ -9114,10 +9149,10 @@ SOXR_CFLAGS =
 SOXR_LIBS = 
 SPATIALAUDIO_CFLAGS = 
 SPATIALAUDIO_LIBS = 
-SPEEXDSP_CFLAGS = -I/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/include
-SPEEXDSP_LIBS = -L/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/lib -lspeexdsp
-SPEEX_CFLAGS = -I/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/include
-SPEEX_LIBS = -L/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/lib -logg -lspeex
+SPEEXDSP_CFLAGS = -I/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/include 
+SPEEXDSP_LIBS = -L/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/lib -lspeexdsp 
+SPEEX_CFLAGS = -I/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/include 
+SPEEX_LIBS = -L/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/lib -logg -lspeex 
 SRT_CFLAGS = 
 SRT_LIBS = 
 STRIP = strip
@@ -9125,26 +9160,26 @@ SVGDEC_CFLAGS =
 SVGDEC_LIBS = 
 SVG_CFLAGS = 
 SVG_LIBS = 
-SWSCALE_CFLAGS = -I/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/include
-SWSCALE_LIBS = -L/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/lib -lswscale -lm -lavutil -lm
+SWSCALE_CFLAGS = -I/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/include 
+SWSCALE_LIBS = -L/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/lib -lswscale -lm -lavutil -lm 
 SYMBOLIC_LDFLAGS = 
 SYS = darwin
 SYSTEMD_CFLAGS = 
 SYSTEMD_LIBS = 
-TAGLIB_CFLAGS = -I/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/include/taglib
-TAGLIB_LIBS = -L/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/lib -ltag
-THEORA_CFLAGS = -I/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/include
-THEORA_LIBS = -L/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/lib -ltheoraenc -ltheoradec -logg
+TAGLIB_CFLAGS = -I/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/include/taglib 
+TAGLIB_LIBS = -L/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/lib -ltag 
+THEORA_CFLAGS = -I/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/include 
+THEORA_LIBS = -L/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/lib -ltheoraenc -ltheoradec -logg 
 TIGER_CFLAGS = 
 TIGER_LIBS = 
-TWOLAME_CFLAGS = -I/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/include
-TWOLAME_LIBS = -L/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/lib -ltwolame
+TWOLAME_CFLAGS = -I/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/include 
+TWOLAME_LIBS = -L/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/lib -ltwolame 
 U2D = 
 UDEV_CFLAGS = 
 UDEV_LIBS = 
 UIC = 
-UPNP_CFLAGS = -D_THREAD_SAFE -I/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/include/upnp
-UPNP_LIBS = -L/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/lib -D_THREAD_SAFE -lupnp -lthreadutil -lixml
+UPNP_CFLAGS = -D_THREAD_SAFE -I/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/include/upnp 
+UPNP_LIBS = -L/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/lib -D_THREAD_SAFE -lupnp -lthreadutil -lixml 
 USE_NLS = yes
 VDPAU_CFLAGS = 
 VDPAU_LIBS = 
@@ -9156,10 +9191,10 @@ VERSION_MINOR = 0
 VERSION_REVISION = 0
 VNC_CFLAGS = 
 VNC_LIBS = 
-VORBIS_CFLAGS = -I/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/include
-VORBIS_LIBS = -L/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/lib -lvorbisenc -lvorbis -lm -logg
-VPX_CFLAGS = -I/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/include
-VPX_LIBS = -L/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/lib -lvpx -lm -lpthread
+VORBIS_CFLAGS = -I/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/include 
+VORBIS_LIBS = -L/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/lib -lvorbisenc -lvorbis -lm -logg 
+VPX_CFLAGS = -I/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/include 
+VPX_LIBS = -L/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/lib -lvpx -lm -lpthread 
 VSXU_CFLAGS = 
 VSXU_LIBS = 
 VULKAN_CFLAGS = 
@@ -9183,10 +9218,10 @@ X262_CFLAGS =
 X262_LIBS = 
 X26410b_CFLAGS = 
 X26410b_LIBS = 
-X264_CFLAGS = -I/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/include
-X264_LIBS = -L/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/lib -lx264 -lpthread -lm -ldl
-X265_CFLAGS = -I/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/include
-X265_LIBS = -L/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/lib -lx265 -lc++ -ldl -lpthread
+X264_CFLAGS = -I/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/include 
+X264_LIBS = -L/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/lib -lx264 -lpthread -lm -ldl 
+X265_CFLAGS = -I/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/include 
+X265_LIBS = -L/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/lib -lx265 -lc++ -ldl -lpthread 
 X86ASM = nasm
 X86ASMDEFS = -DARCH_X86_32=0 -DARCH_X86_64=1 -DPREFIX
 X86ASMFLAGS = -f macho64
@@ -9230,8 +9265,8 @@ X_LIBS =
 X_PRE_LIBS = 
 YACC = bison -y
 YFLAGS = 
-ZVBI_CFLAGS = -I/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/include
-ZVBI_LIBS = -L/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/lib -lzvbi -lm -lpng -lz -lpthread -lm -liconv
+ZVBI_CFLAGS = -I/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/include 
+ZVBI_LIBS = -L/Users/nlandsberg/vlc/contrib/x86_64-apple-darwin15/lib -lzvbi -lm -lpng -lz -lpthread -lm -liconv 
 abs_builddir = /Users/nlandsberg/vlc/build/modules
 abs_srcdir = /Users/nlandsberg/vlc/build/../extras/package/macosx/../../../modules
 abs_top_builddir = /Users/nlandsberg/vlc/build
@@ -9293,8 +9328,8 @@ noinst_LTLIBRARIES = $(am__append_36) libvlc_http.la $(am__append_46) \
 	libvlc_motion.la libxiph_metadata.la $(am__append_113) \
 	libchroma_copy.la libdeinterlace_common.la
 check_LTLIBRARIES = libdemux_mock_plugin.la libaccesstweaks_plugin.la
-pkglib_LTLIBRARIES = $(am__append_61) $(am__append_156) \
-	$(am__append_242)
+pkglib_LTLIBRARIES = $(am__append_61) $(am__append_158) \
+	$(am__append_244)
 
 ### OpenMAX ###
 noinst_HEADERS = codec/omxil/OMX_Broadcom.h \
@@ -9339,7 +9374,7 @@ EXTRA_LTLIBRARIES = libdc1394_plugin.la libdv1394_plugin.la \
 	libcrystalhd_plugin.la libqsv_plugin.la libogg_plugin.la \
 	libmod_plugin.la libmpc_plugin.la libgme_plugin.la \
 	libsid_plugin.la libmkv_plugin.la libminimal_macosx_plugin.la \
-	$(am__append_151) libdirect3d11_filters_plugin.la \
+	$(am__append_153) libdirect3d11_filters_plugin.la \
 	libsecret_plugin.la libkwallet_plugin.la libtaglib_plugin.la \
 	libgnutls_plugin.la libxml_plugin.la libmedialibrary_plugin.la \
 	libosx_notifications_plugin.la libnotify_plugin.la \
@@ -9349,20 +9384,20 @@ EXTRA_LTLIBRARIES = libdc1394_plugin.la libdv1394_plugin.la \
 	libchroma_omx_plugin.la libcvpx_plugin.la \
 	libopencv_wrapper_plugin.la libpostproc_plugin.la \
 	libopencv_example_plugin.la libgles2_plugin.la \
-	$(am__append_253) libdirect3d11_plugin.la $(am__append_258) \
+	$(am__append_255) libdirect3d11_plugin.la $(am__append_260) \
 	libfb_plugin.la libkms_plugin.la libcaca_plugin.la \
 	libgoom_plugin.la libprojectm_plugin.la libvsxu_plugin.la \
-	$(am__append_269)
+	$(am__append_271)
 AUTOMAKE_OPTIONS = subdir-objects
 NULL = 
 pluginsdir = $(pkglibdir)/plugins
 BUILT_SOURCES = $(am__append_19) $(am__append_81) $(am__append_125) \
-	$(am__append_145) $(am__append_173) $(am__append_277) \
-	dummy.cpp $(am__append_280)
+	$(am__append_145) $(am__append_175) $(am__append_279) \
+	dummy.cpp $(am__append_282)
 CLEANFILES = $(BUILT_SOURCES) \
 	$(nodist_libwl_screenshooter_plugin_la_SOURCES) \
-	$(nodist_libwl_shm_plugin_la_SOURCES) $(am__append_276) \
-	$(am__append_281)
+	$(nodist_libwl_shm_plugin_la_SOURCES) $(am__append_278) \
+	$(am__append_283)
 LTLIBVLCCORE = $(top_builddir)/src/libvlccore.la
 
 # Module name from object or executable file name.
@@ -9379,7 +9414,7 @@ AM_YFLAGS = -d -Wno-yacc
 
 # Wayland
 SUFFIXES = .l .y .asm .xib .nib .ui .h .hpp .moc.cpp .qml \
-	$(am__append_275) -client-protocol.h -protocol.c .xml
+	$(am__append_277) -client-protocol.h -protocol.c .xml
 accessdir = $(pluginsdir)/access
 
 # RTP plugin
@@ -9950,7 +9985,7 @@ codec_LTLIBRARIES = libddummy_plugin.la $(am__append_74) \
 	$(LTLIBx262) $(LTLIBx264) $(LTLIBx26410b) $(LTLIBfdkaac) \
 	$(LTLIBshine) $(LTLIBvpx) $(LTLIBaom) $(LTLIBtwolame) \
 	$(LTLIBdav1d) $(LTLIBcrystalhd) $(LTLIBqsv) $(am__append_102) \
-	$(am__append_103)
+	$(am__append_103) $(am__append_151)
 libddummy_plugin_la_SOURCES = codec/ddummy.c
 libedummy_plugin_la_SOURCES = codec/edummy.c
 
@@ -10332,7 +10367,7 @@ demux_LTLIBRARIES = libflacsys_plugin.la $(LTLIBogg) \
 	libdirectory_demux_plugin.la libes_plugin.la libh26x_plugin.la \
 	$(LTLIBmkv) libmp4_plugin.la libmpgv_plugin.la \
 	libplaylist_plugin.la $(am__append_118) libadaptive_plugin.la \
-	libnoseek_plugin.la $(am__append_279)
+	libnoseek_plugin.la $(am__append_281)
 libxiph_metadata_la_SOURCES = demux/xiph_metadata.h demux/xiph_metadata.c
 libxiph_metadata_la_LDFLAGS = -static
 libflacsys_plugin_la_SOURCES = demux/flac.c packetizer/flac.h
@@ -11858,11 +11893,29 @@ libskins2_plugin_la_SOURCES = gui/skins2/commands/async_queue.cpp \
 libskins2_plugin_la_CPPFLAGS = $(AM_CPPFLAGS) $(CPPFLAGS_skins2)
 libskins2_plugin_la_CXXFLAGS = $(AM_CXXFLAGS) -O2 -fno-rtti
 libskins2_plugin_la_LIBADD = $(LIBS_skins2)
+nvdecdir = $(pluginsdir)/nvdec
+libnvdec_plugin_la_SOURCES = \
+	hw/nvdec/nvdec.c codec/hxxx_helper.c codec/hxxx_helper.h \
+	packetizer/hxxx_nal.h packetizer/hxxx_nal.c \
+	packetizer/h264_nal.c packetizer/h264_nal.h \
+	packetizer/hevc_nal.c packetizer/hevc_nal.h \
+	hw/nvdec/nvdec_fmt.h
+
+libnvdec_plugin_la_LIBADD = $(LIBDL)
+libnvdec_chroma_plugin_la_SOURCES = hw/nvdec/chroma.c hw/nvdec/nvdec_fmt.h
+libnvdec_chroma_plugin_la_LDFLAGS = $(AM_LDFLAGS) -rpath '$(nvdecdir)'
+#nvdec_LTLIBRARIES = libnvdec_chroma_plugin.la \
+#	$(am__append_152)
+libglconv_nvdec_plugin_la_SOURCES = hw/nvdec/nvdec_gl.c \
+	video_output/opengl/converter.h hw/nvdec/nvdec_fmt.h
+
+libglconv_nvdec_plugin_la_LIBADD = $(LIBDL)
 d3d9dir = $(pluginsdir)/d3d9
 libdirect3d9_filters_plugin_la_SOURCES = hw/d3d9/d3d9_filters.h \
     hw/d3d9/d3d9_filters.c \
     hw/d3d9/dxva2_deinterlace.c \
     hw/d3d9/dxa9.c \
+    hw/d3d9/d3d9_device.c \
     hw/d3d9/d3d9_instance.c
 
 libdirect3d9_filters_plugin_la_LDFLAGS = $(AM_LDFLAGS) -rpath '$(d3d9dir)'
@@ -11872,13 +11925,14 @@ d3d11dir = $(pluginsdir)/d3d11
 libdirect3d11_filters_plugin_la_SOURCES = hw/d3d11/d3d11_filters.h \
     hw/d3d11/d3d11_filters.c \
     hw/d3d11/d3d11_deinterlace.c \
+    hw/d3d11/d3d11_device.c \
     hw/d3d11/d3d11_surface.c \
     hw/d3d11/d3d11_instance.c \
     hw/d3d11/d3d11_processor.c hw/d3d11/d3d11_processor.h
 
 libdirect3d11_filters_plugin_la_LDFLAGS = $(AM_LDFLAGS) -rpath '$(d3d11dir)'
 libdirect3d11_filters_plugin_la_LIBADD = libchroma_copy.la \
-	libdeinterlace_common.la libd3d11_common.la $(am__append_152)
+	libdeinterlace_common.la libd3d11_common.la $(am__append_154)
 d3d11_LTLIBRARIES = $(LTLIBdirect3d11_filters)
 vaapidir = $(pluginsdir)/vaapi
 libdecdev_vaapi_wl_plugin_la_SOURCES = hw/vaapi/decoder_device.c \
@@ -11900,8 +11954,8 @@ libvaapi_filters_plugin_la_CPPFLAGS = $(AM_CPPFLAGS)
 libvaapi_filters_plugin_la_CFLAGS = $(AM_CFLAGS) $(LIBVA_CFLAGS)
 libvaapi_filters_plugin_la_LIBADD = libchroma_copy.la $(AM_LIBADD) $(LIBVA_LIBS)
 #vaapi_LTLIBRARIES = libvaapi_filters_plugin.la \
-#	$(am__append_153) $(am__append_154) \
-#	$(am__append_155)
+#	$(am__append_155) $(am__append_156) \
+#	$(am__append_157)
 vdpaudir = $(pluginsdir)/vdpau
 libvlc_vdpau_la_SOURCES = hw/vdpau/vlc_vdpau.c hw/vdpau/vlc_vdpau.h hw/vdpau/instance.c
 libvlc_vdpau_la_CFLAGS = $(VDPAU_CFLAGS)
@@ -11939,18 +11993,18 @@ libvdpau_display_plugin_la_LIBADD = libvlc_vdpau.la libvlc_xcb_events.la \
 #vdpau_LTLIBRARIES = libvdpau_deinterlace_plugin.la \
 #	libvdpau_adjust_plugin.la \
 #	libvdpau_sharpen_plugin.la \
-#	libvdpau_chroma_plugin.la $(am__append_157) \
-#	$(am__append_158)
+#	libvdpau_chroma_plugin.la $(am__append_159) \
+#	$(am__append_160)
 keystoredir = $(pluginsdir)/keystore
 libmemory_keystore_plugin_la_SOURCES = keystore/memory.c \
 	keystore/list_util.c keystore/list_util.h
 
 keystore_LTLIBRARIES = libmemory_keystore_plugin.la \
-	libfile_keystore_plugin.la $(am__append_161) $(LTLIBsecret) \
+	libfile_keystore_plugin.la $(am__append_163) $(LTLIBsecret) \
 	$(LTLIBkwallet)
 libfile_keystore_plugin_la_SOURCES = keystore/file.c \
 	keystore/file_crypt.h keystore/list_util.c \
-	keystore/list_util.h $(am__append_159) $(am__append_160)
+	keystore/list_util.h $(am__append_161) $(am__append_162)
 #libfile_keystore_plugin_la_LIBADD = -lcrypt32
 libsecret_plugin_la_SOURCES = keystore/secret.c
 libsecret_plugin_la_CPPFLAGS = $(AM_CPPFLAGS) $(SECRET_CFLAGS)
@@ -11967,8 +12021,8 @@ loggerdir = $(pluginsdir)/logger
 libconsole_logger_plugin_la_SOURCES = logger/console.c
 libfile_logger_plugin_la_SOURCES = logger/file.c
 logger_LTLIBRARIES = libconsole_logger_plugin.la \
-	libfile_logger_plugin.la $(am__append_162) $(am__append_163) \
-	$(am__append_164)
+	libfile_logger_plugin.la $(am__append_164) $(am__append_165) \
+	$(am__append_166)
 libsyslog_plugin_la_SOURCES = logger/syslog.c
 libsd_journal_plugin_la_SOURCES = logger/journal.c
 libsd_journal_plugin_la_CPPFLAGS = $(AM_CPPFLAGS) $(SYSTEMD_CFLAGS)
@@ -11989,7 +12043,7 @@ liblua_plugin_la_SOURCES = lua/extension.c lua/extension.h \
 	lua/libs/strings.c lua/libs/variables.c lua/libs/variables.h \
 	lua/libs/video.c lua/libs/vlm.c lua/libs/volume.c \
 	lua/libs/xml.c lua/libs/io.c lua/libs/errno.c lua/libs/rand.c \
-	$(am__append_165)
+	$(am__append_167)
 liblua_plugin_la_CFLAGS = $(AM_CFLAGS) $(LUA_CFLAGS) -I$(srcdir)/lua
 liblua_plugin_la_LIBADD = $(LUA_LIBS) $(SOCKET_LIBS) $(LIBDL) $(LIBM)
 lua_LTLIBRARIES = liblua_plugin.la
@@ -12006,9 +12060,9 @@ miscdir = $(pluginsdir)/misc
 libstats_plugin_la_SOURCES = misc/stats.c
 misc_LTLIBRARIES = libstats_plugin.la libaudioscrobbler_plugin.la \
 	libexport_plugin.la libfingerprinter_plugin.la $(LTLIBgnutls) \
-	$(am__append_168) $(am__append_169) $(am__append_170) \
-	$(am__append_171) $(am__append_172) $(am__append_174) \
-	$(am__append_175) $(LTLIBxml) $(LTLIBmedialibrary)
+	$(am__append_170) $(am__append_171) $(am__append_172) \
+	$(am__append_173) $(am__append_174) $(am__append_176) \
+	$(am__append_177) $(LTLIBxml) $(LTLIBmedialibrary)
 libaudioscrobbler_plugin_la_SOURCES = misc/audioscrobbler.c
 libaudioscrobbler_plugin_la_LIBADD = $(SOCKET_LIBS)
 libexport_plugin_la_SOURCES = \
@@ -12027,9 +12081,9 @@ libfingerprinter_plugin_la_CPPFLAGS = $(AM_CPPFLAGS) -I$(srcdir)/misc
 libfingerprinter_plugin_la_LIBADD = $(LIBM)
 libgnutls_plugin_la_SOURCES = misc/gnutls.c
 libgnutls_plugin_la_CFLAGS = $(AM_CFLAGS) $(GNUTLS_CFLAGS)
-libgnutls_plugin_la_LIBADD = $(GNUTLS_LIBS) $(am__append_166)
+libgnutls_plugin_la_LIBADD = $(GNUTLS_LIBS) $(am__append_168)
 libgnutls_plugin_la_LDFLAGS = $(AM_LDFLAGS) -rpath '$(miscdir)' \
-	$(am__append_167)
+	$(am__append_169)
 libsecuretransport_plugin_la_SOURCES = misc/securetransport.c
 libsecuretransport_plugin_la_CFLAGS = $(AM_CFLAGS) $(SECURETRANSPORT_CFLAGS)
 libsecuretransport_plugin_la_LIBADD = $(SECURETRANSPORT_LIBS)
@@ -12154,12 +12208,12 @@ packetizer_LTLIBRARIES = libpacketizer_av1_plugin.la \
 	libpacketizer_vc1_plugin.la libpacketizer_mlp_plugin.la \
 	libpacketizer_flac_plugin.la libpacketizer_hevc_plugin.la \
 	libpacketizer_copy_plugin.la libpacketizer_a52_plugin.la \
-	libpacketizer_dts_plugin.la $(NULL) $(am__append_176)
+	libpacketizer_dts_plugin.la $(NULL) $(am__append_178)
 sddir = $(pluginsdir)/services_discovery
 sd_LTLIBRARIES = libpodcast_plugin.la libsap_plugin.la $(LTLIBavahi) \
-	$(LTLIBmtp) $(LTLIBupnp) $(am__append_178) $(LTLIBudev) \
-	$(am__append_181) $(am__append_182) $(am__append_183) \
-	$(LTLIBmicrodns) $(am__append_185)
+	$(LTLIBmtp) $(LTLIBupnp) $(am__append_180) $(LTLIBudev) \
+	$(am__append_183) $(am__append_184) $(am__append_185) \
+	$(LTLIBmicrodns) $(am__append_187)
 libpodcast_plugin_la_SOURCES = services_discovery/podcast.c
 libsap_plugin_la_SOURCES = services_discovery/sap.c
 libsap_plugin_la_CFLAGS = $(AM_CFLAGS) $(CFLAGS_sap)
@@ -12184,15 +12238,15 @@ libupnp_plugin_la_SOURCES = services_discovery/upnp.cpp services_discovery/upnp.
 
 libupnp_plugin_la_CXXFLAGS = $(AM_CXXFLAGS) $(UPNP_CFLAGS)
 libupnp_plugin_la_LDFLAGS = $(AM_LDFLAGS) -rpath '$(sddir)' \
-	$(am__append_177)
+	$(am__append_179)
 libupnp_plugin_la_LIBADD = $(UPNP_LIBS)
 libpulselist_plugin_la_SOURCES = services_discovery/pulse.c
 libpulselist_plugin_la_CFLAGS = $(AM_CFLAGS) $(PULSE_CFLAGS)
 libpulselist_plugin_la_LIBADD = libvlc_pulse.la $(PULSE_LIBS)
 libudev_plugin_la_SOURCES = services_discovery/udev.c
 libudev_plugin_la_CFLAGS = $(AM_CFLAGS) $(UDEV_CFLAGS) \
-	$(am__append_179)
-libudev_plugin_la_LIBADD = $(UDEV_LIBS) $(am__append_180)
+	$(am__append_181)
+libudev_plugin_la_LIBADD = $(UDEV_LIBS) $(am__append_182)
 libudev_plugin_la_LDFLAGS = $(AM_LDFLAGS) -rpath '$(sddir)'
 libxcb_apps_plugin_la_SOURCES = services_discovery/xcb_apps.c
 libxcb_apps_plugin_la_CFLAGS = $(AM_CFLAGS) $(XCB_CFLAGS)
@@ -12202,7 +12256,7 @@ libos2drive_plugin_la_SOURCES = services_discovery/os2drive.c
 libmicrodns_plugin_la_SOURCES = services_discovery/microdns.c
 libmicrodns_plugin_la_CFLAGS = $(AM_CFLAGS) $(MICRODNS_CFLAGS)
 libmicrodns_plugin_la_LIBADD = $(SOCKET_LIBS) $(MICRODNS_LIBS) \
-	$(am__append_184)
+	$(am__append_186)
 libmicrodns_plugin_la_LDFLAGS = $(AM_LDFLAGS) -rpath '$(sddir)'
 libbonjour_plugin_la_SOURCES = services_discovery/bonjour.m
 libbonjour_plugin_la_OBJCFLAGS = $(AM_OBJCFLAGS) -fobjc-arc
@@ -12213,7 +12267,7 @@ spudir = $(pluginsdir)/spu
 libsubsdelay_plugin_la_SOURCES = spu/subsdelay.c
 spu_LTLIBRARIES = libsubsdelay_plugin.la libaudiobargraph_v_plugin.la \
 	liblogo_plugin.la libmarq_plugin.la libmosaic_plugin.la \
-	librss_plugin.la $(am__append_186)
+	librss_plugin.la $(am__append_188)
 
 # sub sources
 libaudiobargraph_v_plugin_la_SOURCES = spu/audiobargraph_v.c
@@ -12232,8 +12286,8 @@ libdynamicoverlay_plugin_la_SOURCES = \
 
 stream_filterdir = $(pluginsdir)/stream_filter
 stream_filter_LTLIBRARIES = libcache_read_plugin.la \
-	libcache_block_plugin.la $(am__append_187) $(am__append_188) \
-	$(am__append_189) libhds_plugin.la librecord_plugin.la \
+	libcache_block_plugin.la $(am__append_189) $(am__append_190) \
+	$(am__append_191) libhds_plugin.la librecord_plugin.la \
 	$(LTLIBaribcam) libadf_plugin.la libskiptags_plugin.la
 libcache_read_plugin_la_SOURCES = stream_filter/cache_read.c
 libcache_block_plugin_la_SOURCES = stream_filter/cache_block.c
@@ -12262,24 +12316,24 @@ libarchive_plugin_la_LDFLAGS = $(AM_LDFLAGS) -rpath '$(stream_extractordir)'
 libarchive_plugin_la_LIBADD = $(ARCHIVE_LIBS)
 textdir = $(pluginsdir)/text_renderer
 libtdummy_plugin_la_SOURCES = text_renderer/tdummy.c
-text_LTLIBRARIES = libtdummy_plugin.la $(am__append_204) $(LTLIBsvg) \
-	$(am__append_205) $(am__append_206)
+text_LTLIBRARIES = libtdummy_plugin.la $(am__append_206) $(LTLIBsvg) \
+	$(am__append_207) $(am__append_208)
 libfreetype_plugin_la_SOURCES =  \
 	text_renderer/freetype/platform_fonts.c \
 	text_renderer/freetype/platform_fonts.h \
 	text_renderer/freetype/freetype.c \
 	text_renderer/freetype/freetype.h \
 	text_renderer/freetype/text_layout.c \
-	text_renderer/freetype/text_layout.h $(am__append_190) \
-	$(am__append_191) $(am__append_194) $(am__append_197) \
-	$(am__append_198)
+	text_renderer/freetype/text_layout.h $(am__append_192) \
+	$(am__append_193) $(am__append_196) $(am__append_199) \
+	$(am__append_200)
 libfreetype_plugin_la_CPPFLAGS = $(AM_CPPFLAGS) $(FREETYPE_CFLAGS) \
-	$(am__append_195) $(am__append_200) $(am__append_202)
-libfreetype_plugin_la_LIBADD = $(LIBM) $(am__append_192) \
-	$(am__append_193) $(am__append_196) $(am__append_201) \
-	$(am__append_203) $(FREETYPE_LIBS)
+	$(am__append_197) $(am__append_202) $(am__append_204)
+libfreetype_plugin_la_LIBADD = $(LIBM) $(am__append_194) \
+	$(am__append_195) $(am__append_198) $(am__append_203) \
+	$(am__append_205) $(FREETYPE_LIBS)
 libfreetype_plugin_la_LDFLAGS = $(FREETYPE_LDFLAGS) -rpath \
-	'$(textdir)' $(am__append_199)
+	'$(textdir)' $(am__append_201)
 libfreetype_plugin_la_LINK = $(LINK) \
 	$(libfreetype_plugin_la_LDFLAGS)
 #libfreetype_plugin_la_LINK = $(CXXLINK) \
@@ -12336,8 +12390,8 @@ chroma_LTLIBRARIES = libi420_rgb_plugin.la libi420_yuy2_plugin.la \
 	libi422_yuy2_plugin.la libgrey_yuv_plugin.la \
 	libyuy2_i420_plugin.la libyuy2_i422_plugin.la \
 	librv32_plugin.la libchain_plugin.la libyuvp_plugin.la \
-	$(LTLIBswscale) $(am__append_207) $(am__append_208) \
-	$(am__append_209) $(LTLIBcvpx)
+	$(LTLIBswscale) $(am__append_209) $(am__append_210) \
+	$(am__append_211) $(LTLIBcvpx)
 
 # AltiVec
 libi420_yuy2_altivec_plugin_la_SOURCES = video_chroma/i420_yuy2.c video_chroma/i420_yuy2.h
@@ -12441,7 +12495,7 @@ libripple_plugin_la_LIBADD = $(LIBM)
 librotate_plugin_la_SOURCES = video_filter/rotate.c
 librotate_plugin_la_LIBADD = libvlc_motion.la $(LIBM)
 librotate_plugin_la_LDFLAGS = $(AM_LDFLAGS) -rpath \
-	'$(video_filterdir)' $(am__append_212)
+	'$(video_filterdir)' $(am__append_214)
 libscale_plugin_la_SOURCES = video_filter/scale.c
 libscene_plugin_la_SOURCES = video_filter/scene.c
 libscene_plugin_la_LIBADD = $(LIBM)
@@ -12467,7 +12521,7 @@ video_filter_LTLIBRARIES = libadjust_plugin.la libalphamask_plugin.la \
 	libantiflicker_plugin.la libhqdn3d_plugin.la \
 	libanaglyph_plugin.la liboldmovie_plugin.la libvhs_plugin.la \
 	libfps_plugin.la libfreeze_plugin.la libpuzzle_plugin.la \
-	librotate_plugin.la $(am__append_213) $(am__append_214) \
+	librotate_plugin.la $(am__append_215) $(am__append_216) \
 	libdeinterlace_plugin.la $(LTLIBopencv_wrapper) \
 	$(LTLIBpostproc) libblend_plugin.la $(LTLIBopencv_example)
 
@@ -12496,11 +12550,11 @@ libdeinterlace_plugin_la_SOURCES =  \
 	video_filter/deinterlace/algo_phosphor.c \
 	video_filter/deinterlace/algo_phosphor.h \
 	video_filter/deinterlace/algo_ivtc.c \
-	video_filter/deinterlace/algo_ivtc.h $(am__append_215) \
-	$(am__append_216) $(am__append_218) $(am__append_220)
+	video_filter/deinterlace/algo_ivtc.h $(am__append_217) \
+	$(am__append_218) $(am__append_220) $(am__append_222)
 # inline ASM doesn't build with -O0
-libdeinterlace_plugin_la_CFLAGS = $(AM_CFLAGS) -O2 $(am__append_217) \
-	$(am__append_219) $(am__append_221)
+libdeinterlace_plugin_la_CFLAGS = $(AM_CFLAGS) -O2 $(am__append_219) \
+	$(am__append_221) $(am__append_223)
 libdeinterlace_plugin_la_LIBADD = libdeinterlace_common.la
 libopencv_wrapper_plugin_la_SOURCES = video_filter/opencv_wrapper.c
 libopencv_wrapper_plugin_la_CPPFLAGS = $(AM_CPPFLAGS) $(OPENCV_CFLAGS)
@@ -12519,23 +12573,23 @@ libopencv_example_plugin_la_LIBADD = $(OPENCV_LIBS)
 libopencv_example_plugin_la_LDFLAGS = $(AM_LDFLAGS) -rpath '$(video_filterdir)'
 splitterdir = $(pluginsdir)/video_splitter
 splitter_LTLIBRARIES = libclone_plugin.la libwall_plugin.la \
-	$(am__append_222) $(am__append_225)
+	$(am__append_224) $(am__append_227)
 libclone_plugin_la_SOURCES = video_splitter/clone.c
 libwall_plugin_la_SOURCES = video_splitter/wall.c
 libpanoramix_plugin_la_SOURCES = video_splitter/panoramix.c
-libpanoramix_plugin_la_CFLAGS = $(AM_CFLAGS) $(am__append_223)
-libpanoramix_plugin_la_LIBADD = $(LIBM) $(am__append_224)
+libpanoramix_plugin_la_CFLAGS = $(AM_CFLAGS) $(am__append_225)
+libpanoramix_plugin_la_LIBADD = $(LIBM) $(am__append_226)
 voutdir = $(pluginsdir)/video_output
-vout_LTLIBRARIES = $(am__append_227) $(am__append_230) \
-	$(am__append_231) $(am__append_232) $(LTLIBgles2) \
-	$(am__append_235) $(am__append_236) $(am__append_237) \
-	$(am__append_238) $(am__append_239) $(am__append_240) \
-	$(am__append_241) $(am__append_243) $(am__append_246) \
-	$(am__append_247) $(am__append_250) $(am__append_251) \
-	$(am__append_252) $(LTLIBdirect3d11) $(am__append_257) \
-	$(am__append_259) $(am__append_260) $(am__append_261) \
-	$(am__append_262) $(am__append_263) $(am__append_264) \
-	$(am__append_265) $(LTLIBfb) $(LTLIBkms) $(LTLIBcaca) \
+vout_LTLIBRARIES = $(am__append_229) $(am__append_232) \
+	$(am__append_233) $(am__append_234) $(LTLIBgles2) \
+	$(am__append_237) $(am__append_238) $(am__append_239) \
+	$(am__append_240) $(am__append_241) $(am__append_242) \
+	$(am__append_243) $(am__append_245) $(am__append_248) \
+	$(am__append_249) $(am__append_252) $(am__append_253) \
+	$(am__append_254) $(LTLIBdirect3d11) $(am__append_259) \
+	$(am__append_261) $(am__append_262) $(am__append_263) \
+	$(am__append_264) $(am__append_265) $(am__append_266) \
+	$(am__append_267) $(LTLIBfb) $(LTLIBkms) $(LTLIBcaca) \
 	libflaschen_plugin.la libvdummy_plugin.la \
 	libvideo_splitter_plugin.la libvmem_plugin.la \
 	libwdummy_plugin.la libwextern_plugin.la libvgl_plugin.la \
@@ -12544,7 +12598,7 @@ OPENGL_COMMONSOURCES = video_output/opengl/vout_helper.c \
 	video_output/opengl/vout_helper.h \
 	video_output/opengl/converter.h video_output/opengl/internal.h \
 	video_output/opengl/fragment_shaders.c \
-	video_output/opengl/converter_sw.c $(am__append_226)
+	video_output/opengl/converter_sw.c $(am__append_228)
 OPENGL_COMMONCFLAGS = $(LIBPLACEBO_CFLAGS)
 OPENGL_COMMONLIBS = $(LIBPLACEBO_LIBS)
 #libdecklinkoutput_plugin_la_SOURCES = video_output/decklink.cpp \
@@ -12561,9 +12615,9 @@ OPENGL_COMMONLIBS = $(LIBPLACEBO_LIBS)
 #libdecklinkoutput_plugin_la_LIBADD = $(LIBS_decklink) $(LIBDL) -lpthread
 libglconv_cvpx_plugin_la_SOURCES =  \
 	video_output/opengl/converter_cvpx.c \
-	video_output/opengl/converter.h $(am__append_228)
+	video_output/opengl/converter.h $(am__append_230)
 libglconv_cvpx_plugin_la_LDFLAGS = $(AM_LDFLAGS) -rpath '$(voutdir)' \
-	$(am__append_229)
+	$(am__append_231)
 libvout_macosx_plugin_la_SOURCES = video_output/macosx.m $(OPENGL_COMMONSOURCES)
 libvout_macosx_plugin_la_CFLAGS = $(AM_CFLAGS) $(OPENGL_COMMONCFLAGS) -DHAVE_GL_CORE_SYMBOLS
 libvout_macosx_plugin_la_LIBADD = $(OPENGL_COMMONLIBS)
@@ -12591,9 +12645,9 @@ libgles2_plugin_la_LIBADD = $(GLES2_LIBS) $(LIBM) $(OPENGL_COMMONLIBS)
 libgles2_plugin_la_LDFLAGS = $(AM_LDFLAGS) -rpath '$(voutdir)'
 libgl_plugin_la_SOURCES = $(OPENGL_COMMONSOURCES) video_output/opengl/display.c
 libgl_plugin_la_CFLAGS = $(AM_CFLAGS) $(GL_CFLAGS) \
-	$(OPENGL_COMMONCFLAGS) $(am__append_233)
+	$(OPENGL_COMMONCFLAGS) $(am__append_235)
 libgl_plugin_la_LIBADD = $(LIBM) $(OPENGL_COMMONLIBS) \
-	$(am__append_234)
+	$(am__append_236)
 libglconv_vaapi_plugin_la_SOURCES = video_output/opengl/converter_vaapi.c \
 	video_output/opengl/converter.h \
 	hw/vaapi/vlc_vaapi.c hw/vaapi/vlc_vaapi.h
@@ -12672,10 +12726,10 @@ libxcb_render_plugin_la_LIBADD = libvlc_xcb_events.la \
 	$(XCB_LIBS) $(XCB_SHM_LIBS) $(XCB_RENDER_LIBS) $(LIBM)
 
 libxcb_window_plugin_la_SOURCES = video_output/xcb/window.c \
-	$(am__append_244)
+	$(am__append_246)
 libxcb_window_plugin_la_CFLAGS = $(AM_CFLAGS) $(CFLAGS_xcb_window) \
 	$(XPROTO_CFLAGS) $(XCB_CFLAGS) $(XCB_XKB_CFLAGS) \
-	$(XKBCOMMON_X11_CFLAGS) $(am__append_245)
+	$(XKBCOMMON_X11_CFLAGS) $(am__append_247)
 libxcb_window_plugin_la_LIBADD = $(XPROTO_LIBS) $(XCB_LIBS) \
 	$(XCB_XKB_LIBS) $(XKBCOMMON_X11_LIBS)
 
@@ -12700,7 +12754,7 @@ libwl_shm_plugin_la_CFLAGS = $(WAYLAND_CLIENT_CFLAGS)
 libwl_shm_plugin_la_LIBADD = $(WAYLAND_CLIENT_LIBS)
 libwl_shell_plugin_la_SOURCES = $(libxdg_shell_plugin_la_SOURCES)
 libwl_shell_plugin_la_CPPFLAGS = $(AM_CPPFLAGS) \
-	-I$(builddir)/video_output/wayland $(am__append_248)
+	-I$(builddir)/video_output/wayland $(am__append_250)
 libwl_shell_plugin_la_CFLAGS = $(libxdg_shell_plugin_la_CFLAGS)
 libwl_shell_plugin_la_LIBADD = $(libxdg_shell_plugin_la_LIBADD)
 libxdg_shell_plugin_la_SOURCES = \
@@ -12716,7 +12770,7 @@ nodist_libxdg_shell_plugin_la_SOURCES = \
 	video_output/wayland/xdg-decoration-protocol.c
 
 libxdg_shell_plugin_la_CPPFLAGS = $(AM_CPPFLAGS) -DXDG_SHELL \
-	-I$(builddir)/video_output/wayland $(am__append_249)
+	-I$(builddir)/video_output/wayland $(am__append_251)
 libxdg_shell_plugin_la_CFLAGS = \
 	$(WAYLAND_CLIENT_CFLAGS) $(WAYLAND_CURSOR_CFLAGS) \
 	$(XKBCOMMON_CFLAGS)
@@ -12747,9 +12801,9 @@ libdirect3d11_plugin_la_SOURCES = video_output/win32/direct3d11.c \
 	video_output/win32/d3d11_swapchain.c \
 	video_output/win32/d3d11_swapchain.h \
 	video_output/win32/common.c video_output/win32/common.h \
-	$(am__append_254)
+	$(am__append_256)
 libdirect3d11_plugin_la_LIBADD = libchroma_copy.la libd3d11_common.la \
-	$(LIBCOM) -luuid $(am__append_255) $(am__append_256)
+	$(LIBCOM) -luuid $(am__append_257) $(am__append_258)
 libdirect3d11_plugin_la_LDFLAGS = $(AM_LDFLAGS) -rpath '$(voutdir)'
 libglwin32_plugin_la_SOURCES = $(OPENGL_COMMONSOURCES) \
 	video_output/win32/glwin32.c \
@@ -12817,7 +12871,7 @@ libkms_plugin_la_LDFLAGS = $(AM_LDFLAGS) -rpath '$(voutdir)'
 ### Coloured ASCII art ###
 libcaca_plugin_la_SOURCES = video_output/caca.c
 libcaca_plugin_la_CFLAGS = $(AM_CFLAGS) $(CACA_CFLAGS)
-libcaca_plugin_la_LIBADD = $(CACA_LIBS) $(am__append_266)
+libcaca_plugin_la_LIBADD = $(CACA_LIBS) $(am__append_268)
 libcaca_plugin_la_LDFLAGS = $(AM_LDFLAGS) -rpath '$(voutdir)'
 
 ### Common ###
@@ -12831,7 +12885,7 @@ libwextern_plugin_la_SOURCES = video_output/wextern.c
 libyuv_plugin_la_SOURCES = video_output/yuv.c
 libvgl_plugin_la_SOURCES = video_output/vgl.c
 visudir = $(pluginsdir)/visualization
-visu_LTLIBRARIES = $(am__append_267) $(LTLIBgoom) $(LTLIBprojectm) \
+visu_LTLIBRARIES = $(am__append_269) $(LTLIBgoom) $(LTLIBprojectm) \
 	libvisual_plugin.la $(LTLIBvsxu)
 libglspectrum_plugin_la_SOURCES = \
 	visualization/glspectrum.c \
@@ -12871,9 +12925,9 @@ access_out_LTLIBRARIES =  \
 	libaccess_output_file_plugin.la \
 	libaccess_output_http_plugin.la \
 	libaccess_output_udp_plugin.la \
-	$(am__append_268) \
+	$(am__append_270) \
 	$(LTLIBaccess_output_shout) \
-	$(LTLIBaccess_output_srt) $(am__append_270)
+	$(LTLIBaccess_output_srt) $(am__append_272)
 libaccess_output_livehttp_plugin_la_SOURCES = access_output/livehttp.c
 libaccess_output_livehttp_plugin_la_CFLAGS = $(AM_CFLAGS) $(GCRYPT_CFLAGS)
 libaccess_output_livehttp_plugin_la_LIBADD = $(GCRYPT_LIBS) -lgpg-error
@@ -12918,7 +12972,7 @@ mux_LTLIBRARIES = libmux_dummy_plugin.la \
 	libmux_asf_plugin.la libmux_avi_plugin.la \
 	libmux_mp4_plugin.la libmux_mpjpeg_plugin.la \
 	libmux_ps_plugin.la libmux_wav_plugin.la \
-	$(LTLIBmux_ogg) $(am__append_271)
+	$(LTLIBmux_ogg) $(am__append_273)
 libmux_ogg_plugin_la_SOURCES = mux/ogg.c
 libmux_ogg_plugin_la_CPPFLAGS = $(AM_CPPFLAGS) $(OGG_CFLAGS)
 libmux_ogg_plugin_la_LDFLAGS = $(AM_LDFLAGS) -rpath '$(muxdir)'
@@ -12986,10 +13040,10 @@ sout_LTLIBRARIES = libstream_out_dummy_plugin.la \
 	libstream_out_smem_plugin.la \
 	libstream_out_setid_plugin.la \
 	libstream_out_transcode_plugin.la \
-	$(am__append_272) \
+	$(am__append_274) \
 	libstream_out_rtp_plugin.la \
 	$(LTLIBstream_out_chromaprint) \
-	$(am__append_278)
+	$(am__append_280)
 #libstream_out_sdi_plugin_la_CXXFLAGS = $(AM_CXXFLAGS) $(CPPFLAGS_decklinkoutput)
 #libstream_out_sdi_plugin_la_LIBADD = $(LIBS_decklink) $(LIBDL) -lpthread
 #libstream_out_sdi_plugin_la_SOURCES = stream_out/sdi/sdiout.cpp \
@@ -13018,9 +13072,9 @@ libstream_out_rtp_plugin_la_SOURCES = \
 	stream_out/rtcp.c stream_out/rtsp.c stream_out/vod.c
 
 libstream_out_rtp_plugin_la_CFLAGS = $(AM_CFLAGS) \
-	$(am__append_273)
+	$(am__append_275)
 libstream_out_rtp_plugin_la_LIBADD = $(SOCKET_LIBS) \
-	$(am__append_274)
+	$(am__append_276)
 SRTP_CFLAGS = -I$(srcdir)/access/rtp
 SRTP_LIBS = libvlc_srtp.la
 
@@ -13048,7 +13102,7 @@ all: $(BUILT_SOURCES)
 
 .SUFFIXES:
 .SUFFIXES: .l .y .asm .xib .nib .ui .h .hpp .moc.cpp .qml .proto .pb.cc -client-protocol.h -protocol.c .xml .S .c .cc .cpp .lo .log .m .o .obj .test .test$(EXEEXT) .trs
-$(srcdir)/Makefile.in:  $(srcdir)/Makefile.am $(srcdir)/common.am $(srcdir)/access/Makefile.am $(srcdir)/access/http/Makefile.am $(srcdir)/access/rtp/Makefile.am $(srcdir)/arm_neon/Makefile.am $(srcdir)/audio_filter/Makefile.am $(srcdir)/audio_mixer/Makefile.am $(srcdir)/audio_output/Makefile.am $(srcdir)/codec/Makefile.am $(srcdir)/control/Makefile.am $(srcdir)/demux/Makefile.am $(srcdir)/gui/Makefile.am $(srcdir)/gui/macosx/Makefile.am $(srcdir)/gui/qt/Makefile.am $(srcdir)/gui/skins2/Makefile.am $(srcdir)/hw/d3d9/Makefile.am $(srcdir)/hw/d3d11/Makefile.am $(srcdir)/hw/vaapi/Makefile.am $(srcdir)/hw/vdpau/Makefile.am $(srcdir)/keystore/Makefile.am $(srcdir)/logger/Makefile.am $(srcdir)/lua/Makefile.am $(srcdir)/meta_engine/Makefile.am $(srcdir)/misc/Makefile.am $(srcdir)/notify/Makefile.am $(srcdir)/packetizer/Makefile.am $(srcdir)/services_discovery/Makefile.am $(srcdir)/spu/Makefile.am $(srcdir)/stream_filter/Makefile.am $(srcdir)/stream_extractor/Makefile.am $(srcdir)/text_renderer/Makefile.am $(srcdir)/video_chroma/Makefile.am $(srcdir)/video_filter/Makefile.am $(srcdir)/video_splitter/Makefile.am $(srcdir)/video_output/Makefile.am $(srcdir)/visualization/Makefile.am $(srcdir)/access_output/Makefile.am $(srcdir)/mux/Makefile.am $(srcdir)/stream_out/Makefile.am $(am__configure_deps)
+$(srcdir)/Makefile.in:  $(srcdir)/Makefile.am $(srcdir)/common.am $(srcdir)/access/Makefile.am $(srcdir)/access/http/Makefile.am $(srcdir)/access/rtp/Makefile.am $(srcdir)/arm_neon/Makefile.am $(srcdir)/audio_filter/Makefile.am $(srcdir)/audio_mixer/Makefile.am $(srcdir)/audio_output/Makefile.am $(srcdir)/codec/Makefile.am $(srcdir)/control/Makefile.am $(srcdir)/demux/Makefile.am $(srcdir)/gui/Makefile.am $(srcdir)/gui/macosx/Makefile.am $(srcdir)/gui/qt/Makefile.am $(srcdir)/gui/skins2/Makefile.am $(srcdir)/hw/nvdec/Makefile.am $(srcdir)/hw/d3d9/Makefile.am $(srcdir)/hw/d3d11/Makefile.am $(srcdir)/hw/vaapi/Makefile.am $(srcdir)/hw/vdpau/Makefile.am $(srcdir)/keystore/Makefile.am $(srcdir)/logger/Makefile.am $(srcdir)/lua/Makefile.am $(srcdir)/meta_engine/Makefile.am $(srcdir)/misc/Makefile.am $(srcdir)/notify/Makefile.am $(srcdir)/packetizer/Makefile.am $(srcdir)/services_discovery/Makefile.am $(srcdir)/spu/Makefile.am $(srcdir)/stream_filter/Makefile.am $(srcdir)/stream_extractor/Makefile.am $(srcdir)/text_renderer/Makefile.am $(srcdir)/video_chroma/Makefile.am $(srcdir)/video_filter/Makefile.am $(srcdir)/video_splitter/Makefile.am $(srcdir)/video_output/Makefile.am $(srcdir)/visualization/Makefile.am $(srcdir)/access_output/Makefile.am $(srcdir)/mux/Makefile.am $(srcdir)/stream_out/Makefile.am $(am__configure_deps)
 	@for dep in $?; do \
 	  case '$(am__configure_deps)' in \
 	    *$$dep*) \
@@ -13068,7 +13122,7 @@ Makefile: $(srcdir)/Makefile.in $(top_builddir)/config.status
 	    echo ' cd $(top_builddir) && $(SHELL) ./config.status $(subdir)/$@ $(am__maybe_remake_depfiles)'; \
 	    cd $(top_builddir) && $(SHELL) ./config.status $(subdir)/$@ $(am__maybe_remake_depfiles);; \
 	esac;
-$(srcdir)/common.am $(srcdir)/access/Makefile.am $(srcdir)/access/http/Makefile.am $(srcdir)/access/rtp/Makefile.am $(srcdir)/arm_neon/Makefile.am $(srcdir)/audio_filter/Makefile.am $(srcdir)/audio_mixer/Makefile.am $(srcdir)/audio_output/Makefile.am $(srcdir)/codec/Makefile.am $(srcdir)/control/Makefile.am $(srcdir)/demux/Makefile.am $(srcdir)/gui/Makefile.am $(srcdir)/gui/macosx/Makefile.am $(srcdir)/gui/qt/Makefile.am $(srcdir)/gui/skins2/Makefile.am $(srcdir)/hw/d3d9/Makefile.am $(srcdir)/hw/d3d11/Makefile.am $(srcdir)/hw/vaapi/Makefile.am $(srcdir)/hw/vdpau/Makefile.am $(srcdir)/keystore/Makefile.am $(srcdir)/logger/Makefile.am $(srcdir)/lua/Makefile.am $(srcdir)/meta_engine/Makefile.am $(srcdir)/misc/Makefile.am $(srcdir)/notify/Makefile.am $(srcdir)/packetizer/Makefile.am $(srcdir)/services_discovery/Makefile.am $(srcdir)/spu/Makefile.am $(srcdir)/stream_filter/Makefile.am $(srcdir)/stream_extractor/Makefile.am $(srcdir)/text_renderer/Makefile.am $(srcdir)/video_chroma/Makefile.am $(srcdir)/video_filter/Makefile.am $(srcdir)/video_splitter/Makefile.am $(srcdir)/video_output/Makefile.am $(srcdir)/visualization/Makefile.am $(srcdir)/access_output/Makefile.am $(srcdir)/mux/Makefile.am $(srcdir)/stream_out/Makefile.am $(am__empty):
+$(srcdir)/common.am $(srcdir)/access/Makefile.am $(srcdir)/access/http/Makefile.am $(srcdir)/access/rtp/Makefile.am $(srcdir)/arm_neon/Makefile.am $(srcdir)/audio_filter/Makefile.am $(srcdir)/audio_mixer/Makefile.am $(srcdir)/audio_output/Makefile.am $(srcdir)/codec/Makefile.am $(srcdir)/control/Makefile.am $(srcdir)/demux/Makefile.am $(srcdir)/gui/Makefile.am $(srcdir)/gui/macosx/Makefile.am $(srcdir)/gui/qt/Makefile.am $(srcdir)/gui/skins2/Makefile.am $(srcdir)/hw/nvdec/Makefile.am $(srcdir)/hw/d3d9/Makefile.am $(srcdir)/hw/d3d11/Makefile.am $(srcdir)/hw/vaapi/Makefile.am $(srcdir)/hw/vdpau/Makefile.am $(srcdir)/keystore/Makefile.am $(srcdir)/logger/Makefile.am $(srcdir)/lua/Makefile.am $(srcdir)/meta_engine/Makefile.am $(srcdir)/misc/Makefile.am $(srcdir)/notify/Makefile.am $(srcdir)/packetizer/Makefile.am $(srcdir)/services_discovery/Makefile.am $(srcdir)/spu/Makefile.am $(srcdir)/stream_filter/Makefile.am $(srcdir)/stream_extractor/Makefile.am $(srcdir)/text_renderer/Makefile.am $(srcdir)/video_chroma/Makefile.am $(srcdir)/video_filter/Makefile.am $(srcdir)/video_splitter/Makefile.am $(srcdir)/video_output/Makefile.am $(srcdir)/visualization/Makefile.am $(srcdir)/access_output/Makefile.am $(srcdir)/mux/Makefile.am $(srcdir)/stream_out/Makefile.am $(am__empty):
 
 $(top_builddir)/config.status: $(top_srcdir)/configure $(CONFIG_STATUS_DEPENDENCIES)
 	cd $(top_builddir) && $(MAKE) $(AM_MAKEFLAGS) am--refresh
@@ -13851,6 +13905,41 @@ uninstall-notifyLTLIBRARIES:
 clean-notifyLTLIBRARIES:
 	-test -z "$(notify_LTLIBRARIES)" || rm -f $(notify_LTLIBRARIES)
 	@list='$(notify_LTLIBRARIES)'; \
+	locs=`for p in $$list; do echo $$p; done | \
+	      sed 's|^[^/]*$$|.|; s|/[^/]*$$||; s|$$|/so_locations|' | \
+	      sort -u`; \
+	test -z "$$locs" || { \
+	  echo rm -f $${locs}; \
+	  rm -f $${locs}; \
+	}
+
+install-nvdecLTLIBRARIES: $(nvdec_LTLIBRARIES)
+	@$(NORMAL_INSTALL)
+	@list='$(nvdec_LTLIBRARIES)'; test -n "$(nvdecdir)" || list=; \
+	list2=; for p in $$list; do \
+	  if test -f $$p; then \
+	    list2="$$list2 $$p"; \
+	  else :; fi; \
+	done; \
+	test -z "$$list2" || { \
+	  echo " $(MKDIR_P) '$(DESTDIR)$(nvdecdir)'"; \
+	  $(MKDIR_P) "$(DESTDIR)$(nvdecdir)" || exit 1; \
+	  echo " $(LIBTOOL) $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=install $(INSTALL) $(INSTALL_STRIP_FLAG) $$list2 '$(DESTDIR)$(nvdecdir)'"; \
+	  $(LIBTOOL) $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=install $(INSTALL) $(INSTALL_STRIP_FLAG) $$list2 "$(DESTDIR)$(nvdecdir)"; \
+	}
+
+uninstall-nvdecLTLIBRARIES:
+	@$(NORMAL_UNINSTALL)
+	@list='$(nvdec_LTLIBRARIES)'; test -n "$(nvdecdir)" || list=; \
+	for p in $$list; do \
+	  $(am__strip_dir) \
+	  echo " $(LIBTOOL) $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=uninstall rm -f '$(DESTDIR)$(nvdecdir)/$$f'"; \
+	  $(LIBTOOL) $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=uninstall rm -f "$(DESTDIR)$(nvdecdir)/$$f"; \
+	done
+
+clean-nvdecLTLIBRARIES:
+	-test -z "$(nvdec_LTLIBRARIES)" || rm -f $(nvdec_LTLIBRARIES)
+	@list='$(nvdec_LTLIBRARIES)'; \
 	locs=`for p in $$list; do echo $$p; done | \
 	      sed 's|^[^/]*$$|.|; s|/[^/]*$$||; s|$$|/so_locations|' | \
 	      sort -u`; \
@@ -15723,6 +15812,8 @@ hw/d3d11/d3d11_filters.lo: hw/d3d11/$(am__dirstamp) \
 	hw/d3d11/$(DEPDIR)/$(am__dirstamp)
 hw/d3d11/d3d11_deinterlace.lo: hw/d3d11/$(am__dirstamp) \
 	hw/d3d11/$(DEPDIR)/$(am__dirstamp)
+hw/d3d11/d3d11_device.lo: hw/d3d11/$(am__dirstamp) \
+	hw/d3d11/$(DEPDIR)/$(am__dirstamp)
 hw/d3d11/d3d11_surface.lo: hw/d3d11/$(am__dirstamp) \
 	hw/d3d11/$(DEPDIR)/$(am__dirstamp)
 hw/d3d11/d3d11_instance.lo: hw/d3d11/$(am__dirstamp) \
@@ -15770,6 +15861,8 @@ hw/d3d9/d3d9_filters.lo: hw/d3d9/$(am__dirstamp) \
 hw/d3d9/dxva2_deinterlace.lo: hw/d3d9/$(am__dirstamp) \
 	hw/d3d9/$(DEPDIR)/$(am__dirstamp)
 hw/d3d9/dxa9.lo: hw/d3d9/$(am__dirstamp) \
+	hw/d3d9/$(DEPDIR)/$(am__dirstamp)
+hw/d3d9/d3d9_device.lo: hw/d3d9/$(am__dirstamp) \
 	hw/d3d9/$(DEPDIR)/$(am__dirstamp)
 hw/d3d9/d3d9_instance.lo: hw/d3d9/$(am__dirstamp) \
 	hw/d3d9/$(DEPDIR)/$(am__dirstamp)
@@ -16219,6 +16312,17 @@ codec/libglconv_cvpx_plugin_la-vt_utils.lo: codec/$(am__dirstamp) \
 
 libglconv_cvpx_plugin.la: $(libglconv_cvpx_plugin_la_OBJECTS) $(libglconv_cvpx_plugin_la_DEPENDENCIES) $(EXTRA_libglconv_cvpx_plugin_la_DEPENDENCIES) 
 	$(AM_V_CCLD)$(libglconv_cvpx_plugin_la_LINK) $(am_libglconv_cvpx_plugin_la_rpath) $(libglconv_cvpx_plugin_la_OBJECTS) $(libglconv_cvpx_plugin_la_LIBADD) $(LIBS)
+hw/nvdec/$(am__dirstamp):
+	@$(MKDIR_P) hw/nvdec
+	@: > hw/nvdec/$(am__dirstamp)
+hw/nvdec/$(DEPDIR)/$(am__dirstamp):
+	@$(MKDIR_P) hw/nvdec/$(DEPDIR)
+	@: > hw/nvdec/$(DEPDIR)/$(am__dirstamp)
+hw/nvdec/nvdec_gl.lo: hw/nvdec/$(am__dirstamp) \
+	hw/nvdec/$(DEPDIR)/$(am__dirstamp)
+
+libglconv_nvdec_plugin.la: $(libglconv_nvdec_plugin_la_OBJECTS) $(libglconv_nvdec_plugin_la_DEPENDENCIES) $(EXTRA_libglconv_nvdec_plugin_la_DEPENDENCIES) 
+	$(AM_V_CCLD)$(LINK) $(am_libglconv_nvdec_plugin_la_rpath) $(libglconv_nvdec_plugin_la_OBJECTS) $(libglconv_nvdec_plugin_la_LIBADD) $(LIBS)
 video_output/opengl/libglconv_vaapi_plugin_la-converter_vaapi.lo:  \
 	video_output/opengl/$(am__dirstamp) \
 	video_output/opengl/$(DEPDIR)/$(am__dirstamp)
@@ -17565,6 +17669,18 @@ demux/nuv.lo: demux/$(am__dirstamp) demux/$(DEPDIR)/$(am__dirstamp)
 
 libnuv_plugin.la: $(libnuv_plugin_la_OBJECTS) $(libnuv_plugin_la_DEPENDENCIES) $(EXTRA_libnuv_plugin_la_DEPENDENCIES) 
 	$(AM_V_CCLD)$(LINK) -rpath $(demuxdir) $(libnuv_plugin_la_OBJECTS) $(libnuv_plugin_la_LIBADD) $(LIBS)
+hw/nvdec/chroma.lo: hw/nvdec/$(am__dirstamp) \
+	hw/nvdec/$(DEPDIR)/$(am__dirstamp)
+
+libnvdec_chroma_plugin.la: $(libnvdec_chroma_plugin_la_OBJECTS) $(libnvdec_chroma_plugin_la_DEPENDENCIES) $(EXTRA_libnvdec_chroma_plugin_la_DEPENDENCIES) 
+	$(AM_V_CCLD)$(libnvdec_chroma_plugin_la_LINK) $(am_libnvdec_chroma_plugin_la_rpath) $(libnvdec_chroma_plugin_la_OBJECTS) $(libnvdec_chroma_plugin_la_LIBADD) $(LIBS)
+hw/nvdec/nvdec.lo: hw/nvdec/$(am__dirstamp) \
+	hw/nvdec/$(DEPDIR)/$(am__dirstamp)
+codec/hxxx_helper.lo: codec/$(am__dirstamp) \
+	codec/$(DEPDIR)/$(am__dirstamp)
+
+libnvdec_plugin.la: $(libnvdec_plugin_la_OBJECTS) $(libnvdec_plugin_la_DEPENDENCIES) $(EXTRA_libnvdec_plugin_la_DEPENDENCIES) 
+	$(AM_V_CCLD)$(LINK) $(am_libnvdec_plugin_la_rpath) $(libnvdec_plugin_la_OBJECTS) $(libnvdec_plugin_la_LIBADD) $(LIBS)
 demux/libogg_plugin_la-ogg.lo: demux/$(am__dirstamp) \
 	demux/$(DEPDIR)/$(am__dirstamp)
 demux/libogg_plugin_la-oggseek.lo: demux/$(am__dirstamp) \
@@ -20107,8 +20223,6 @@ libvideo_splitter_plugin.la: $(libvideo_splitter_plugin_la_OBJECTS) $(libvideo_s
 	$(AM_V_CCLD)$(LINK) -rpath $(voutdir) $(libvideo_splitter_plugin_la_OBJECTS) $(libvideo_splitter_plugin_la_LIBADD) $(LIBS)
 codec/libvideotoolbox_plugin_la-videotoolbox.lo:  \
 	codec/$(am__dirstamp) codec/$(DEPDIR)/$(am__dirstamp)
-codec/hxxx_helper.lo: codec/$(am__dirstamp) \
-	codec/$(DEPDIR)/$(am__dirstamp)
 
 libvideotoolbox_plugin.la: $(libvideotoolbox_plugin_la_OBJECTS) $(libvideotoolbox_plugin_la_DEPENDENCIES) $(EXTRA_libvideotoolbox_plugin_la_DEPENDENCIES) 
 	$(AM_V_OBJCLD)$(libvideotoolbox_plugin_la_LINK)  $(libvideotoolbox_plugin_la_OBJECTS) $(libvideotoolbox_plugin_la_LIBADD) $(LIBS)
@@ -21010,6 +21124,8 @@ mostlyclean-compile:
 	-rm -f hw/d3d11/*.lo
 	-rm -f hw/d3d9/*.$(OBJEXT)
 	-rm -f hw/d3d9/*.lo
+	-rm -f hw/nvdec/*.$(OBJEXT)
+	-rm -f hw/nvdec/*.lo
 	-rm -f hw/vaapi/*.$(OBJEXT)
 	-rm -f hw/vaapi/*.lo
 	-rm -f hw/vdpau/*.$(OBJEXT)
@@ -22154,14 +22270,19 @@ include gui/skins2/x11/$(DEPDIR)/libskins2_plugin_la-x11_timer.Plo # am--include
 include gui/skins2/x11/$(DEPDIR)/libskins2_plugin_la-x11_tooltip.Plo # am--include-marker
 include gui/skins2/x11/$(DEPDIR)/libskins2_plugin_la-x11_window.Plo # am--include-marker
 include hw/d3d11/$(DEPDIR)/d3d11_deinterlace.Plo # am--include-marker
+include hw/d3d11/$(DEPDIR)/d3d11_device.Plo # am--include-marker
 include hw/d3d11/$(DEPDIR)/d3d11_filters.Plo # am--include-marker
 include hw/d3d11/$(DEPDIR)/d3d11_instance.Plo # am--include-marker
 include hw/d3d11/$(DEPDIR)/d3d11_processor.Plo # am--include-marker
 include hw/d3d11/$(DEPDIR)/d3d11_surface.Plo # am--include-marker
+include hw/d3d9/$(DEPDIR)/d3d9_device.Plo # am--include-marker
 include hw/d3d9/$(DEPDIR)/d3d9_filters.Plo # am--include-marker
 include hw/d3d9/$(DEPDIR)/d3d9_instance.Plo # am--include-marker
 include hw/d3d9/$(DEPDIR)/dxa9.Plo # am--include-marker
 include hw/d3d9/$(DEPDIR)/dxva2_deinterlace.Plo # am--include-marker
+include hw/nvdec/$(DEPDIR)/chroma.Plo # am--include-marker
+include hw/nvdec/$(DEPDIR)/nvdec.Plo # am--include-marker
+include hw/nvdec/$(DEPDIR)/nvdec_gl.Plo # am--include-marker
 include hw/vaapi/$(DEPDIR)/libdecdev_vaapi_drm_plugin_la-decoder_device.Plo # am--include-marker
 include hw/vaapi/$(DEPDIR)/libdecdev_vaapi_drm_plugin_la-vlc_vaapi.Plo # am--include-marker
 include hw/vaapi/$(DEPDIR)/libdecdev_vaapi_wl_plugin_la-decoder_device.Plo # am--include-marker
@@ -30729,6 +30850,7 @@ clean-libtool:
 	-rm -rf gui/skins2/x11/.libs gui/skins2/x11/_libs
 	-rm -rf hw/d3d11/.libs hw/d3d11/_libs
 	-rm -rf hw/d3d9/.libs hw/d3d9/_libs
+	-rm -rf hw/nvdec/.libs hw/nvdec/_libs
 	-rm -rf hw/vaapi/.libs hw/vaapi/_libs
 	-rm -rf hw/vdpau/.libs hw/vdpau/_libs
 	-rm -rf keystore/.libs keystore/_libs
@@ -31226,7 +31348,7 @@ all-am: Makefile $(PROGRAMS) $(LTLIBRARIES) $(SCRIPTS) $(DATA) \
 		$(HEADERS)
 installdirs: installdirs-recursive
 installdirs-am:
-	for dir in "$(DESTDIR)$(pkglibexecdir)" "$(DESTDIR)$(accessdir)" "$(DESTDIR)$(access_outdir)" "$(DESTDIR)$(aoutdir)" "$(DESTDIR)$(audio_filterdir)" "$(DESTDIR)$(audio_mixerdir)" "$(DESTDIR)$(chromadir)" "$(DESTDIR)$(codecdir)" "$(DESTDIR)$(controldir)" "$(DESTDIR)$(d3d11dir)" "$(DESTDIR)$(d3d9dir)" "$(DESTDIR)$(demuxdir)" "$(DESTDIR)$(guidir)" "$(DESTDIR)$(keystoredir)" "$(DESTDIR)$(loggerdir)" "$(DESTDIR)$(luadir)" "$(DESTDIR)$(metadir)" "$(DESTDIR)$(miscdir)" "$(DESTDIR)$(muxdir)" "$(DESTDIR)$(neondir)" "$(DESTDIR)$(notifydir)" "$(DESTDIR)$(packetizerdir)" "$(DESTDIR)$(pkglibdir)" "$(DESTDIR)$(sddir)" "$(DESTDIR)$(soutdir)" "$(DESTDIR)$(splitterdir)" "$(DESTDIR)$(spudir)" "$(DESTDIR)$(stream_extractordir)" "$(DESTDIR)$(stream_filterdir)" "$(DESTDIR)$(textdir)" "$(DESTDIR)$(vaapidir)" "$(DESTDIR)$(vdpaudir)" "$(DESTDIR)$(video_filterdir)" "$(DESTDIR)$(visudir)" "$(DESTDIR)$(voutdir)" "$(DESTDIR)$(libmacosx_plugin_ladir)"; do \
+	for dir in "$(DESTDIR)$(pkglibexecdir)" "$(DESTDIR)$(accessdir)" "$(DESTDIR)$(access_outdir)" "$(DESTDIR)$(aoutdir)" "$(DESTDIR)$(audio_filterdir)" "$(DESTDIR)$(audio_mixerdir)" "$(DESTDIR)$(chromadir)" "$(DESTDIR)$(codecdir)" "$(DESTDIR)$(controldir)" "$(DESTDIR)$(d3d11dir)" "$(DESTDIR)$(d3d9dir)" "$(DESTDIR)$(demuxdir)" "$(DESTDIR)$(guidir)" "$(DESTDIR)$(keystoredir)" "$(DESTDIR)$(loggerdir)" "$(DESTDIR)$(luadir)" "$(DESTDIR)$(metadir)" "$(DESTDIR)$(miscdir)" "$(DESTDIR)$(muxdir)" "$(DESTDIR)$(neondir)" "$(DESTDIR)$(notifydir)" "$(DESTDIR)$(nvdecdir)" "$(DESTDIR)$(packetizerdir)" "$(DESTDIR)$(pkglibdir)" "$(DESTDIR)$(sddir)" "$(DESTDIR)$(soutdir)" "$(DESTDIR)$(splitterdir)" "$(DESTDIR)$(spudir)" "$(DESTDIR)$(stream_extractordir)" "$(DESTDIR)$(stream_filterdir)" "$(DESTDIR)$(textdir)" "$(DESTDIR)$(vaapidir)" "$(DESTDIR)$(vdpaudir)" "$(DESTDIR)$(video_filterdir)" "$(DESTDIR)$(visudir)" "$(DESTDIR)$(voutdir)" "$(DESTDIR)$(libmacosx_plugin_ladir)"; do \
 	  test -z "$$dir" || $(MKDIR_P) "$$dir"; \
 	done
 install: $(BUILT_SOURCES)
@@ -31496,6 +31618,8 @@ distclean-generic:
 	-rm -f hw/d3d11/$(am__dirstamp)
 	-rm -f hw/d3d9/$(DEPDIR)/$(am__dirstamp)
 	-rm -f hw/d3d9/$(am__dirstamp)
+	-rm -f hw/nvdec/$(DEPDIR)/$(am__dirstamp)
+	-rm -f hw/nvdec/$(am__dirstamp)
 	-rm -f hw/vaapi/$(DEPDIR)/$(am__dirstamp)
 	-rm -f hw/vaapi/$(am__dirstamp)
 	-rm -f hw/vdpau/$(DEPDIR)/$(am__dirstamp)
@@ -31614,10 +31738,11 @@ clean-am: clean-accessLTLIBRARIES clean-access_outLTLIBRARIES \
 	clean-metaLTLIBRARIES clean-miscLTLIBRARIES \
 	clean-muxLTLIBRARIES clean-neonLTLIBRARIES \
 	clean-noinstLTLIBRARIES clean-notifyLTLIBRARIES \
-	clean-packetizerLTLIBRARIES clean-pkglibLTLIBRARIES \
-	clean-pkglibexecPROGRAMS clean-sdLTLIBRARIES \
-	clean-soutLTLIBRARIES clean-splitterLTLIBRARIES \
-	clean-spuLTLIBRARIES clean-stream_extractorLTLIBRARIES \
+	clean-nvdecLTLIBRARIES clean-packetizerLTLIBRARIES \
+	clean-pkglibLTLIBRARIES clean-pkglibexecPROGRAMS \
+	clean-sdLTLIBRARIES clean-soutLTLIBRARIES \
+	clean-splitterLTLIBRARIES clean-spuLTLIBRARIES \
+	clean-stream_extractorLTLIBRARIES \
 	clean-stream_filterLTLIBRARIES clean-textLTLIBRARIES \
 	clean-vaapiLTLIBRARIES clean-vdpauLTLIBRARIES \
 	clean-video_filterLTLIBRARIES clean-visuLTLIBRARIES \
@@ -32668,14 +32793,19 @@ distclean: distclean-recursive
 	-rm -f gui/skins2/x11/$(DEPDIR)/libskins2_plugin_la-x11_tooltip.Plo
 	-rm -f gui/skins2/x11/$(DEPDIR)/libskins2_plugin_la-x11_window.Plo
 	-rm -f hw/d3d11/$(DEPDIR)/d3d11_deinterlace.Plo
+	-rm -f hw/d3d11/$(DEPDIR)/d3d11_device.Plo
 	-rm -f hw/d3d11/$(DEPDIR)/d3d11_filters.Plo
 	-rm -f hw/d3d11/$(DEPDIR)/d3d11_instance.Plo
 	-rm -f hw/d3d11/$(DEPDIR)/d3d11_processor.Plo
 	-rm -f hw/d3d11/$(DEPDIR)/d3d11_surface.Plo
+	-rm -f hw/d3d9/$(DEPDIR)/d3d9_device.Plo
 	-rm -f hw/d3d9/$(DEPDIR)/d3d9_filters.Plo
 	-rm -f hw/d3d9/$(DEPDIR)/d3d9_instance.Plo
 	-rm -f hw/d3d9/$(DEPDIR)/dxa9.Plo
 	-rm -f hw/d3d9/$(DEPDIR)/dxva2_deinterlace.Plo
+	-rm -f hw/nvdec/$(DEPDIR)/chroma.Plo
+	-rm -f hw/nvdec/$(DEPDIR)/nvdec.Plo
+	-rm -f hw/nvdec/$(DEPDIR)/nvdec_gl.Plo
 	-rm -f hw/vaapi/$(DEPDIR)/libdecdev_vaapi_drm_plugin_la-decoder_device.Plo
 	-rm -f hw/vaapi/$(DEPDIR)/libdecdev_vaapi_drm_plugin_la-vlc_vaapi.Plo
 	-rm -f hw/vaapi/$(DEPDIR)/libdecdev_vaapi_wl_plugin_la-decoder_device.Plo
@@ -33174,9 +33304,10 @@ install-data-am: install-accessLTLIBRARIES \
 	install-luaLTLIBRARIES install-metaLTLIBRARIES \
 	install-miscLTLIBRARIES install-muxLTLIBRARIES \
 	install-neonLTLIBRARIES install-notifyLTLIBRARIES \
-	install-packetizerLTLIBRARIES install-sdLTLIBRARIES \
-	install-soutLTLIBRARIES install-splitterLTLIBRARIES \
-	install-spuLTLIBRARIES install-stream_extractorLTLIBRARIES \
+	install-nvdecLTLIBRARIES install-packetizerLTLIBRARIES \
+	install-sdLTLIBRARIES install-soutLTLIBRARIES \
+	install-splitterLTLIBRARIES install-spuLTLIBRARIES \
+	install-stream_extractorLTLIBRARIES \
 	install-stream_filterLTLIBRARIES install-textLTLIBRARIES \
 	install-vaapiLTLIBRARIES install-vdpauLTLIBRARIES \
 	install-video_filterLTLIBRARIES install-visuLTLIBRARIES \
@@ -34253,14 +34384,19 @@ maintainer-clean: maintainer-clean-recursive
 	-rm -f gui/skins2/x11/$(DEPDIR)/libskins2_plugin_la-x11_tooltip.Plo
 	-rm -f gui/skins2/x11/$(DEPDIR)/libskins2_plugin_la-x11_window.Plo
 	-rm -f hw/d3d11/$(DEPDIR)/d3d11_deinterlace.Plo
+	-rm -f hw/d3d11/$(DEPDIR)/d3d11_device.Plo
 	-rm -f hw/d3d11/$(DEPDIR)/d3d11_filters.Plo
 	-rm -f hw/d3d11/$(DEPDIR)/d3d11_instance.Plo
 	-rm -f hw/d3d11/$(DEPDIR)/d3d11_processor.Plo
 	-rm -f hw/d3d11/$(DEPDIR)/d3d11_surface.Plo
+	-rm -f hw/d3d9/$(DEPDIR)/d3d9_device.Plo
 	-rm -f hw/d3d9/$(DEPDIR)/d3d9_filters.Plo
 	-rm -f hw/d3d9/$(DEPDIR)/d3d9_instance.Plo
 	-rm -f hw/d3d9/$(DEPDIR)/dxa9.Plo
 	-rm -f hw/d3d9/$(DEPDIR)/dxva2_deinterlace.Plo
+	-rm -f hw/nvdec/$(DEPDIR)/chroma.Plo
+	-rm -f hw/nvdec/$(DEPDIR)/nvdec.Plo
+	-rm -f hw/nvdec/$(DEPDIR)/nvdec_gl.Plo
 	-rm -f hw/vaapi/$(DEPDIR)/libdecdev_vaapi_drm_plugin_la-decoder_device.Plo
 	-rm -f hw/vaapi/$(DEPDIR)/libdecdev_vaapi_drm_plugin_la-vlc_vaapi.Plo
 	-rm -f hw/vaapi/$(DEPDIR)/libdecdev_vaapi_wl_plugin_la-decoder_device.Plo
@@ -34760,11 +34896,11 @@ uninstall-am: uninstall-accessLTLIBRARIES \
 	uninstall-loggerLTLIBRARIES uninstall-luaLTLIBRARIES \
 	uninstall-metaLTLIBRARIES uninstall-miscLTLIBRARIES \
 	uninstall-muxLTLIBRARIES uninstall-neonLTLIBRARIES \
-	uninstall-notifyLTLIBRARIES uninstall-packetizerLTLIBRARIES \
-	uninstall-pkglibLTLIBRARIES uninstall-pkglibexecPROGRAMS \
-	uninstall-sdLTLIBRARIES uninstall-soutLTLIBRARIES \
-	uninstall-splitterLTLIBRARIES uninstall-spuLTLIBRARIES \
-	uninstall-stream_extractorLTLIBRARIES \
+	uninstall-notifyLTLIBRARIES uninstall-nvdecLTLIBRARIES \
+	uninstall-packetizerLTLIBRARIES uninstall-pkglibLTLIBRARIES \
+	uninstall-pkglibexecPROGRAMS uninstall-sdLTLIBRARIES \
+	uninstall-soutLTLIBRARIES uninstall-splitterLTLIBRARIES \
+	uninstall-spuLTLIBRARIES uninstall-stream_extractorLTLIBRARIES \
 	uninstall-stream_filterLTLIBRARIES uninstall-textLTLIBRARIES \
 	uninstall-vaapiLTLIBRARIES uninstall-vdpauLTLIBRARIES \
 	uninstall-video_filterLTLIBRARIES uninstall-visuLTLIBRARIES \
@@ -34787,10 +34923,11 @@ uninstall-am: uninstall-accessLTLIBRARIES \
 	clean-metaLTLIBRARIES clean-miscLTLIBRARIES \
 	clean-muxLTLIBRARIES clean-neonLTLIBRARIES \
 	clean-noinstLTLIBRARIES clean-notifyLTLIBRARIES \
-	clean-packetizerLTLIBRARIES clean-pkglibLTLIBRARIES \
-	clean-pkglibexecPROGRAMS clean-sdLTLIBRARIES \
-	clean-soutLTLIBRARIES clean-splitterLTLIBRARIES \
-	clean-spuLTLIBRARIES clean-stream_extractorLTLIBRARIES \
+	clean-nvdecLTLIBRARIES clean-packetizerLTLIBRARIES \
+	clean-pkglibLTLIBRARIES clean-pkglibexecPROGRAMS \
+	clean-sdLTLIBRARIES clean-soutLTLIBRARIES \
+	clean-splitterLTLIBRARIES clean-spuLTLIBRARIES \
+	clean-stream_extractorLTLIBRARIES \
 	clean-stream_filterLTLIBRARIES clean-textLTLIBRARIES \
 	clean-vaapiLTLIBRARIES clean-vdpauLTLIBRARIES \
 	clean-video_filterLTLIBRARIES clean-visuLTLIBRARIES \
@@ -34811,12 +34948,12 @@ uninstall-am: uninstall-accessLTLIBRARIES \
 	install-loggerLTLIBRARIES install-luaLTLIBRARIES install-man \
 	install-metaLTLIBRARIES install-miscLTLIBRARIES \
 	install-muxLTLIBRARIES install-neonLTLIBRARIES \
-	install-notifyLTLIBRARIES install-packetizerLTLIBRARIES \
-	install-pdf install-pdf-am install-pkglibLTLIBRARIES \
-	install-pkglibexecPROGRAMS install-ps install-ps-am \
-	install-sdLTLIBRARIES install-soutLTLIBRARIES \
-	install-splitterLTLIBRARIES install-spuLTLIBRARIES \
-	install-stream_extractorLTLIBRARIES \
+	install-notifyLTLIBRARIES install-nvdecLTLIBRARIES \
+	install-packetizerLTLIBRARIES install-pdf install-pdf-am \
+	install-pkglibLTLIBRARIES install-pkglibexecPROGRAMS \
+	install-ps install-ps-am install-sdLTLIBRARIES \
+	install-soutLTLIBRARIES install-splitterLTLIBRARIES \
+	install-spuLTLIBRARIES install-stream_extractorLTLIBRARIES \
 	install-stream_filterLTLIBRARIES install-strip \
 	install-textLTLIBRARIES install-vaapiLTLIBRARIES \
 	install-vdpauLTLIBRARIES install-video_filterLTLIBRARIES \
@@ -34836,11 +34973,11 @@ uninstall-am: uninstall-accessLTLIBRARIES \
 	uninstall-loggerLTLIBRARIES uninstall-luaLTLIBRARIES \
 	uninstall-metaLTLIBRARIES uninstall-miscLTLIBRARIES \
 	uninstall-muxLTLIBRARIES uninstall-neonLTLIBRARIES \
-	uninstall-notifyLTLIBRARIES uninstall-packetizerLTLIBRARIES \
-	uninstall-pkglibLTLIBRARIES uninstall-pkglibexecPROGRAMS \
-	uninstall-sdLTLIBRARIES uninstall-soutLTLIBRARIES \
-	uninstall-splitterLTLIBRARIES uninstall-spuLTLIBRARIES \
-	uninstall-stream_extractorLTLIBRARIES \
+	uninstall-notifyLTLIBRARIES uninstall-nvdecLTLIBRARIES \
+	uninstall-packetizerLTLIBRARIES uninstall-pkglibLTLIBRARIES \
+	uninstall-pkglibexecPROGRAMS uninstall-sdLTLIBRARIES \
+	uninstall-soutLTLIBRARIES uninstall-splitterLTLIBRARIES \
+	uninstall-spuLTLIBRARIES uninstall-stream_extractorLTLIBRARIES \
 	uninstall-stream_filterLTLIBRARIES uninstall-textLTLIBRARIES \
 	uninstall-vaapiLTLIBRARIES uninstall-vdpauLTLIBRARIES \
 	uninstall-video_filterLTLIBRARIES uninstall-visuLTLIBRARIES \

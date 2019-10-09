@@ -207,6 +207,9 @@
 /* Define to 1 if you have the <features.h> header file. */
 #undef HAVE_FEATURES_H
 
+/* Define to 1 if you have the <ffnvcodec/dynlink_loader.h> header file. */
+#undef HAVE_FFNVCODEC_DYNLINK_LOADER_H
+
 /* Define to 1 if you have the `flock' function. */
 #undef HAVE_FLOCK
 
@@ -218,6 +221,9 @@
 
 /* Define to 1 if you have the `fork' function. */
 #undef HAVE_FORK
+
+/* Define to 1 if you have the `fstatat' function. */
+#undef HAVE_FSTATAT
 
 /* Define to 1 if you have the `fstatvfs' function. */
 #undef HAVE_FSTATVFS
@@ -437,9 +443,6 @@
 
 /* Define to 1 if you have the `nrand48' function. */
 #undef HAVE_NRAND48
-
-/* Define to 1 if you have the `openat' function. */
-#undef HAVE_OPENAT
 
 /* Define to 1 if you have the `open_memstream' function. */
 #undef HAVE_OPEN_MEMSTREAM
