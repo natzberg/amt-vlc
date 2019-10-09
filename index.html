@@ -52,7 +52,7 @@
           streams.style.display = "none";
         }
 
-        var ips = fetch('static/mcast-i2-1.log').then(function(response) {
+        var ips = fetch('mcast-i2-1.log').then(function(response) {
           return response.text();
         }).then(function(text) {
           var lines = text.split('\n');
