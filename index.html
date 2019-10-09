@@ -67,7 +67,7 @@
         }).then(function(test) {
           test.forEach(function(element) {
             var link = document.createElement('a');
-            link.setAttribute('href', 'amt://@' + element.toString());
+            link.setAttribute('href', element.toString()+ ".vlc");
             link.innerHTML = element.toString();
             var newln = document.createElement('br');
             streams.appendChild(link);
