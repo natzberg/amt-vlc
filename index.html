@@ -34,7 +34,7 @@
         </script>
 
   <!-- Add your site or application content here -->
-  <center><h1>Welcome to M2ICast!</h1></center>
+  <h1>Welcome to M2ICast!</h1>
   <div class="stream-list">
     <h3>List of multicast streams</h3>
     <button onclick="getIps()">Click to view streams.</button>
@@ -64,8 +64,8 @@
             test.push(element);
           });
           return test;
-        }).then(function(text) {
-          text.forEach(function(element) {
+        }).then(function(test) {
+          test.forEach(function(element) {
             var link = document.createElement('a');
             link.setAttribute('href', 'amt://@' + element.toString());
             link.innerHTML = element.toString();
