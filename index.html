@@ -61,7 +61,7 @@
           lines = lines.slice(1);
           lines.forEach(function(element) {
             console.log(element.split(/[ \t]+/));
-            test.push(element);
+            test.push(element.split(/[ \t]+/));
           });
           return test;
         }).then(function(test) {
