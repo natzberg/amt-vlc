@@ -52,25 +52,25 @@
           streams.style.display = "none";
         }
 
-        var ips = fetch('/amt-vlc/mcast-i2-1.log').then(function(response) {
+        var ips = fetch('mcast-i2-1.log').then(function(response) {
           return response.text();
         }).then(function(text) {
           var lines = text.split('\n');
           var test = [];
           lines = lines.slice(1);
           lines.forEach(function(element) {
-            //console.log(element.split("\\w*"));
+            console.log(element.split("\\w*"));
             test.push(element);
           });
           return test;
         }).then(function(text) {
           text.forEach(function(element) {
-            // var link = document.createElement('a');
-            // link.setAttribute('href', 'amt://@' + element.toString());
-            // link.innerHTML = element.toString();
-            // var newln = document.createElement('br');
-            // streams.appendChild(link);
-            // streams.appendChild(newln);
+            var link = document.createElement('a');
+            link.setAttribute('href', 'amt://@' + element.toString());
+            link.innerHTML = element.toString();
+            var newln = document.createElement('br');
+            streams.appendChild(link);
+            streams.appendChild(newln);
           });
 
         });
