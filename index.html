@@ -20,7 +20,7 @@
     width="640"
     height="480"
     id="vlc"
-    target="amt://162.250.138.201@232.162.250.139" />
+    target="" />
     <script type="text/javascript">
 
        // <!--
@@ -45,6 +45,7 @@
   <script>
     function getIps() {
         var streams = document.getElementById("streams");
+        console.log("getting ips");
 
         if( streams.style.display === "none" ) {
           streams.style.display = "block";
